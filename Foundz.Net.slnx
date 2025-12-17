@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Foundz.Net.Cli/Foundz.Net.Cli.csproj" />
+    <Project Path="src/Foundz.Net.Core/Foundz.Net.Core.csproj" />
+    <Project Path="src/Foundz.Net.Data/Foundz.Net.Data.csproj" />
+    <Project Path="src/Foundz.Net.Infrastructure/Foundz.Net.Infrastructure.csproj" />
+    <Project Path="src/Foundz.Net.Shared/Foundz.Net.Shared.csproj" />
+    <Project Path="src/Foundz.Net.Tools/Foundz.Net.Tools.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Foundz.Net.Tests.Integration/Foundz.Net.Tests.Integration.csproj" />
+    <Project Path="tests/Foundz.Net.Tests.Performance/Foundz.Net.Tests.Performance.csproj" />
+    <Project Path="tests/Foundz.Net.Tests.Unit/Foundz.Net.Tests.Unit.csproj" />
+  </Folder>
+</Solution>

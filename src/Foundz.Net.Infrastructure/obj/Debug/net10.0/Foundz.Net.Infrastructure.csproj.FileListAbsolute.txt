@@ -1,0 +1,15 @@
+/Users/mjtpena/dev/foundz.net/src/Foundz.Net.Infrastructure/bin/Debug/net10.0/Foundz.Net.Infrastructure.deps.json
+/Users/mjtpena/dev/foundz.net/src/Foundz.Net.Infrastructure/bin/Debug/net10.0/Foundz.Net.Infrastructure.dll
+/Users/mjtpena/dev/foundz.net/src/Foundz.Net.Infrastructure/bin/Debug/net10.0/Foundz.Net.Infrastructure.pdb
+/Users/mjtpena/dev/foundz.net/src/Foundz.Net.Infrastructure/bin/Debug/net10.0/Foundz.Net.Shared.dll
+/Users/mjtpena/dev/foundz.net/src/Foundz.Net.Infrastructure/bin/Debug/net10.0/Foundz.Net.Shared.pdb
+/Users/mjtpena/dev/foundz.net/src/Foundz.Net.Infrastructure/obj/Debug/net10.0/Foundz.Net.Infrastructure.csproj.AssemblyReference.cache
+/Users/mjtpena/dev/foundz.net/src/Foundz.Net.Infrastructure/obj/Debug/net10.0/Foundz.Net.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mjtpena/dev/foundz.net/src/Foundz.Net.Infrastructure/obj/Debug/net10.0/Foundz.Net.Infrastructure.AssemblyInfoInputs.cache
+/Users/mjtpena/dev/foundz.net/src/Foundz.Net.Infrastructure/obj/Debug/net10.0/Foundz.Net.Infrastructure.AssemblyInfo.cs
+/Users/mjtpena/dev/foundz.net/src/Foundz.Net.Infrastructure/obj/Debug/net10.0/Foundz.Net.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/mjtpena/dev/foundz.net/src/Foundz.Net.Infrastructure/obj/Debug/net10.0/Foundz.N.8B9F8F6F.Up2Date
+/Users/mjtpena/dev/foundz.net/src/Foundz.Net.Infrastructure/obj/Debug/net10.0/Foundz.Net.Infrastructure.dll
+/Users/mjtpena/dev/foundz.net/src/Foundz.Net.Infrastructure/obj/Debug/net10.0/refint/Foundz.Net.Infrastructure.dll
+/Users/mjtpena/dev/foundz.net/src/Foundz.Net.Infrastructure/obj/Debug/net10.0/Foundz.Net.Infrastructure.pdb
+/Users/mjtpena/dev/foundz.net/src/Foundz.Net.Infrastructure/obj/Debug/net10.0/ref/Foundz.Net.Infrastructure.dll
