@@ -1,4 +1,5 @@
 using System.Runtime.CompilerServices;
+using Foundz.Net.Core.AI;
 using Foundz.Net.Core.ToolRegistry;
 using Foundz.Net.Shared.Interfaces;
 using Foundz.Net.Shared.Models;
@@ -17,6 +18,8 @@ public class AgentOrchestrator : IAgentOrchestrator
     private readonly ToolCallParser _toolCallParser;
     private readonly ToolResultFormatter _resultFormatter;
     private readonly ContextManager _contextManager;
+    private readonly CostTracker? _costTracker;
+    private readonly RequestMetricsCollector? _metricsCollector;
     private readonly ILogger<AgentOrchestrator> _logger;
     
     private readonly int _maxIterations;
@@ -30,6 +33,8 @@ public class AgentOrchestrator : IAgentOrchestrator
         ToolResultFormatter resultFormatter,
         ContextManager contextManager,
         ILogger<AgentOrchestrator> logger,
+        CostTracker? costTracker = null,
+        RequestMetricsCollector? metricsCollector = null,
         int maxIterations = 15,
         string? systemPrompt = null)
     {
@@ -39,6 +44,8 @@ public class AgentOrchestrator : IAgentOrchestrator
         _toolCallParser = toolCallParser;
         _resultFormatter = resultFormatter;
         _contextManager = contextManager;
+        _costTracker = costTracker;
+        _metricsCollector = metricsCollector;
         _logger = logger;
         _maxIterations = maxIterations;
         _systemPrompt = systemPrompt ?? BuildDefaultSystemPrompt();
@@ -80,11 +87,35 @@ public class AgentOrchestrator : IAgentOrchestrator
                 iterationCount++;
                 _logger.LogDebug("Iteration {Iteration} of {Max}", iterationCount, _maxIterations);
 
-                // Call AI with current context
-                var aiResponse = await _aiClient.SendMessageAsync(
-                    messages,
-                    toolSchemas,
-                    cancellationToken);
+                // Call AI with current context and track metrics
+                AIResponse aiResponse;
+                using (var metricsTracker = _metricsCollector?.StartRequest("ai-model", session.Id.ToString()))
+                {
+                    try
+                    {
+                        aiResponse = await _aiClient.SendMessageAsync(
+                            messages,
+                            toolSchemas,
+                            cancellationToken);
+
+                        metricsTracker?.Complete(
+                            aiResponse.TokenUsage.PromptTokens,
+                            aiResponse.TokenUsage.CompletionTokens);
+                    }
+                    catch (Exception ex)
+                    {
+                        metricsTracker?.Fail(ex.Message);
+                        throw;
+                    }
+                }
+
+                // Track cost for this request
+                _costTracker?.RecordRequest(
+                    sessionId: session.Id.ToString(),
+                    modelName: aiResponse.ModelUsed ?? "unknown",
+                    promptTokens: aiResponse.TokenUsage.PromptTokens,
+                    completionTokens: aiResponse.TokenUsage.CompletionTokens,
+                    timestamp: DateTime.UtcNow);
 
                 // Accumulate token usage
                 totalTokenUsage = new TokenUsage

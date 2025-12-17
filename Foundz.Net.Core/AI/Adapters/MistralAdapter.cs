@@ -90,7 +90,7 @@ public class MistralAdapter : IProviderAdapter
                 {
                     name = tool.Name,
                     description = tool.Description,
-                    parameters = tool.ParametersSchema
+                    parameters = tool.Parameters
                 }
             };
 
@@ -129,13 +129,27 @@ public class MistralAdapter : IProviderAdapter
                     var name = function.GetProperty("name").GetString() ?? string.Empty;
                     var argsJson = function.GetProperty("arguments").GetString() ?? "{}";
 
-                    var arguments = JsonDocument.Parse(argsJson).RootElement;
+                    var argsDoc = JsonDocument.Parse(argsJson);
+                    var arguments = new Dictionary<string, object>();
+                    foreach (var prop in argsDoc.RootElement.EnumerateObject())
+                    {
+                        arguments[prop.Name] = prop.Value.ValueKind switch
+                        {
+                            JsonValueKind.String => prop.Value.GetString() ?? string.Empty,
+                            JsonValueKind.Number => prop.Value.GetDouble(),
+                            JsonValueKind.True => true,
+                            JsonValueKind.False => false,
+                            JsonValueKind.Null => null!,
+                            _ => prop.Value.ToString()
+                        };
+                    }
 
-                    toolCalls.Add(new ToolCall(
-                        Id: id,
-                        Name: name,
-                        Arguments: arguments
-                    ));
+                    toolCalls.Add(new ToolCall
+                    {
+                        Id = id,
+                        Name = name,
+                        Arguments = arguments
+                    });
                 }
             }
 
@@ -160,14 +174,18 @@ public class MistralAdapter : IProviderAdapter
                 ? modelProp.GetString()
                 : null;
 
-            return new AIResponse(
-                Content: content,
-                ToolCalls: toolCalls,
-                FinishReason: finishReason,
-                Model: model,
-                PromptTokens: promptTokens,
-                CompletionTokens: completionTokens
-            );
+            return new AIResponse
+            {
+                Content = content,
+                ToolCalls = toolCalls,
+                FinishReason = finishReason,
+                ModelUsed = model,
+                TokenUsage = new TokenUsage
+                {
+                    PromptTokens = promptTokens ?? 0,
+                    CompletionTokens = completionTokens ?? 0
+                }
+            };
         }
         catch (Exception ex)
         {
@@ -189,11 +207,11 @@ public class MistralAdapter : IProviderAdapter
             if (json.ValueKind == JsonValueKind.String 
                 && json.GetString() == "[DONE]")
             {
-                return new AIResponseChunk(
-                    ContentDelta: string.Empty,
-                    FinishReason: "stop",
-                    IsComplete: true
-                );
+                return new AIResponseChunk
+                {
+                    ContentDelta = string.Empty,
+                    FinishReason = "stop"
+                };
             }
 
             var choice = json.GetProperty("choices")[0];
@@ -208,30 +226,20 @@ public class MistralAdapter : IProviderAdapter
                 ? reasonProp.GetString()
                 : null;
 
-            var isComplete = finishReason != null;
-
-            // Handle tool_calls in delta
-            string? toolCallDelta = null;
-            if (delta.TryGetProperty("tool_calls", out var toolCallsProp))
+            return new AIResponseChunk
             {
-                toolCallDelta = toolCallsProp.ToString();
-            }
-
-            return new AIResponseChunk(
-                ContentDelta: contentDelta,
-                FinishReason: finishReason,
-                IsComplete: isComplete,
-                ToolCallDelta: toolCallDelta
-            );
+                ContentDelta = contentDelta,
+                FinishReason = finishReason
+            };
         }
         catch (Exception ex)
         {
             _logger.LogWarning(ex, "Failed to parse Mistral stream chunk, skipping");
-            return new AIResponseChunk(
-                ContentDelta: string.Empty,
-                FinishReason: null,
-                IsComplete: false
-            );
+            return new AIResponseChunk
+            {
+                ContentDelta = string.Empty,
+                FinishReason = null
+            };
         }
     }
 
@@ -242,6 +250,8 @@ public class MistralAdapter : IProviderAdapter
     {
         return new ModelCapabilities
         {
+            ModelName = modelName,
+            Provider = "Mistral",
             SupportsToolUse = true,
             SupportsVision = false,  // Mistral doesn't support vision (yet)
             SupportsStreaming = true,
@@ -249,8 +259,8 @@ public class MistralAdapter : IProviderAdapter
             MaxOutputTokens = 8_192,     // Mistral Large: 8K output
             SupportsJsonMode = true,     // Mistral supports JSON mode
             SupportsParallelToolCalls = true,
-            SupportedLanguages = new[] { "en", "fr", "de", "es", "it", "pt", "nl", "ru", "zh", "ja", "ko" },
-            Features = new[] { "tool_use", "function_calling", "json_mode", "multilingual", "eu_data_residency" }
+            SupportedLanguages = new List<string> { "en", "fr", "de", "es", "it", "pt", "nl", "ru", "zh", "ja", "ko" },
+            Features = new List<string> { "tool_use", "function_calling", "json_mode", "multilingual", "eu_data_residency" }
         };
     }
 

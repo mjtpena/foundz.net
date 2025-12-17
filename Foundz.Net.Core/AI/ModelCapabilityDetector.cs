@@ -60,7 +60,7 @@ public class ModelCapabilityDetector
 
         if (adapter != null)
         {
-            var capabilities = adapter.GetCapabilities();
+            var capabilities = adapter.GetCapabilities(modelName);
             _logger.LogDebug("Found adapter {Provider} for model {Model}",
                 adapter.ProviderName, modelName);
             return capabilities;
@@ -103,6 +103,8 @@ public class ModelCapabilityDetector
 
             return new ModelCapabilities
             {
+                ModelName = modelName,
+                Provider = "Anthropic",
                 SupportsToolUse = true,
                 SupportsVision = isOpus || isSonnet,  // Opus and Sonnet support vision
                 SupportsStreaming = true,
@@ -110,7 +112,7 @@ public class ModelCapabilityDetector
                 MaxOutputTokens = isOpus ? 4_096 : 8_192,
                 SupportsJsonMode = false,
                 SupportsParallelToolCalls = true,
-                Features = new[] { "tool_use", "vision", "long_context", "thinking" }
+                Features = new List<string> { "tool_use", "vision", "long_context", "thinking" }
             };
         }
 
@@ -123,6 +125,8 @@ public class ModelCapabilityDetector
 
             return new ModelCapabilities
             {
+                ModelName = modelName,
+                Provider = "OpenAI",
                 SupportsToolUse = true,
                 SupportsVision = isVision || isO,
                 SupportsStreaming = true,
@@ -130,7 +134,7 @@ public class ModelCapabilityDetector
                 MaxOutputTokens = 4_096,
                 SupportsJsonMode = true,
                 SupportsParallelToolCalls = true,
-                Features = new[] { "tool_use", "function_calling", "json_mode", "structured_outputs" }
+                Features = new List<string> { "tool_use", "function_calling", "json_mode", "structured_outputs" }
             };
         }
 
@@ -139,6 +143,8 @@ public class ModelCapabilityDetector
         {
             return new ModelCapabilities
             {
+                ModelName = modelName,
+                Provider = "OpenAI",
                 SupportsToolUse = true,
                 SupportsVision = false,
                 SupportsStreaming = true,
@@ -146,7 +152,7 @@ public class ModelCapabilityDetector
                 MaxOutputTokens = 4_096,
                 SupportsJsonMode = true,
                 SupportsParallelToolCalls = false,
-                Features = new[] { "tool_use", "function_calling", "json_mode" }
+                Features = new List<string> { "tool_use", "function_calling", "json_mode" }
             };
         }
 
@@ -155,6 +161,8 @@ public class ModelCapabilityDetector
         {
             return new ModelCapabilities
             {
+                ModelName = modelName,
+                Provider = "Mistral",
                 SupportsToolUse = true,
                 SupportsVision = false,
                 SupportsStreaming = true,
@@ -162,7 +170,7 @@ public class ModelCapabilityDetector
                 MaxOutputTokens = 8_192,
                 SupportsJsonMode = true,
                 SupportsParallelToolCalls = true,
-                Features = new[] { "tool_use", "function_calling", "json_mode", "multilingual" }
+                Features = new List<string> { "tool_use", "function_calling", "json_mode", "multilingual" }
             };
         }
 
@@ -171,6 +179,8 @@ public class ModelCapabilityDetector
         {
             return new ModelCapabilities
             {
+                ModelName = modelName,
+                Provider = "Cohere",
                 SupportsToolUse = true,
                 SupportsVision = false,
                 SupportsStreaming = true,
@@ -178,7 +188,7 @@ public class ModelCapabilityDetector
                 MaxOutputTokens = 4_000,
                 SupportsJsonMode = false,
                 SupportsParallelToolCalls = true,
-                Features = new[] { "tool_use", "rag", "grounding", "citations", "multilingual" }
+                Features = new List<string> { "tool_use", "rag", "grounding", "citations", "multilingual" }
             };
         }
 
@@ -187,6 +197,8 @@ public class ModelCapabilityDetector
         {
             return new ModelCapabilities
             {
+                ModelName = modelName,
+                Provider = "Meta",
                 SupportsToolUse = name.Contains("3.1") || name.Contains("3.2"),  // Only newer versions
                 SupportsVision = name.Contains("vision"),
                 SupportsStreaming = true,
@@ -194,7 +206,7 @@ public class ModelCapabilityDetector
                 MaxOutputTokens = 2_048,
                 SupportsJsonMode = false,
                 SupportsParallelToolCalls = false,
-                Features = new[] { "open_source", "tool_use" }
+                Features = new List<string> { "open_source", "tool_use" }
             };
         }
 
@@ -202,6 +214,8 @@ public class ModelCapabilityDetector
         _logger.LogWarning("Unknown model {Model}, using generic capabilities", modelName);
         return new ModelCapabilities
         {
+            ModelName = modelName,
+            Provider = "Unknown",
             SupportsToolUse = false,
             SupportsVision = false,
             SupportsStreaming = true,
@@ -209,7 +223,7 @@ public class ModelCapabilityDetector
             MaxOutputTokens = 2_048,
             SupportsJsonMode = false,
             SupportsParallelToolCalls = false,
-            Features = Array.Empty<string>()
+            Features = new List<string>()
         };
     }
 

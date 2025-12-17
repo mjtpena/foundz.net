@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v10.0": {
       "Foundz.Net.Tests.Integration/1.0.0": {
         "dependencies": {
+          "Foundz.Net.Cli": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.14.1",
           "xunit": "2.9.3"
         },
@@ -129,17 +130,17 @@
           "runtimes/win-arm64/native/git2-3f4182d.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "1.8.4.0"
           },
           "runtimes/win-x64/native/git2-3f4182d.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "1.8.4.0"
           },
           "runtimes/win-x86/native/git2-3f4182d.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "1.8.4.0"
           }
         }
       },
@@ -1466,7 +1467,7 @@
             "rid": "win",
             "assetType": "runtime",
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll": {
             "rid": "win",
@@ -1580,7 +1581,7 @@
         "runtime": {
           "lib/netstandard2.0/xunit.abstractions.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "2.0.0.0"
           }
         }
       },
@@ -1617,6 +1618,90 @@
           "lib/netstandard1.1/xunit.execution.dotnet.dll": {
             "assemblyVersion": "2.9.3.0",
             "fileVersion": "2.9.3.0"
+          }
+        }
+      },
+      "Foundz.Net.Cli/1.0.0": {
+        "dependencies": {
+          "Foundz.Net.Core": "1.0.0",
+          "Foundz.Net.Infrastructure": "1.0.0",
+          "Spectre.Console": "0.54.0",
+          "System.CommandLine": "2.0.1"
+        },
+        "runtime": {
+          "Foundz.Net.Cli.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Foundz.Net.Core/1.0.0": {
+        "dependencies": {
+          "Azure.AI.Inference": "1.0.0-beta.5",
+          "Foundz.Net.Data": "1.0.0",
+          "Foundz.Net.Shared": "1.0.0",
+          "Foundz.Net.Tools": "1.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.1",
+          "Microsoft.SemanticKernel": "1.68.0",
+          "Polly": "8.6.5"
+        },
+        "runtime": {
+          "Foundz.Net.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Foundz.Net.Data/1.0.0": {
+        "dependencies": {
+          "Foundz.Net.Shared": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Sqlite": "10.0.1"
+        },
+        "runtime": {
+          "Foundz.Net.Data.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Foundz.Net.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Foundz.Net.Shared": "1.0.0",
+          "Microsoft.Extensions.Configuration": "10.0.1",
+          "Serilog": "4.3.0",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.File": "7.0.0"
+        },
+        "runtime": {
+          "Foundz.Net.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Foundz.Net.Shared/1.0.0": {
+        "dependencies": {
+          "FluentValidation": "12.1.1"
+        },
+        "runtime": {
+          "Foundz.Net.Shared.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Foundz.Net.Tools/1.0.0": {
+        "dependencies": {
+          "Foundz.Net.Shared": "1.0.0",
+          "LibGit2Sharp": "0.31.0",
+          "Microsoft.CodeAnalysis.CSharp": "4.12.0",
+          "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.12.0",
+          "Microsoft.CodeAnalysis.Workspaces.MSBuild": "4.12.0"
+        },
+        "runtime": {
+          "Foundz.Net.Tools.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       }
@@ -2243,6 +2328,36 @@
       "sha512": "sha512-yMb6vMESlSrE3Wfj7V6cjQ3S4TXdXpRqYeNEI3zsX31uTsGMJjEw6oD5F5u1cHnMptjhEECnmZSsPxB6ChZHDQ==",
       "path": "xunit.extensibility.execution/2.9.3",
       "hashPath": "xunit.extensibility.execution.2.9.3.nupkg.sha512"
+    },
+    "Foundz.Net.Cli/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Foundz.Net.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Foundz.Net.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Foundz.Net.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Foundz.Net.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Foundz.Net.Tools/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

@@ -1,36 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mjtpena/dev/foundz.net/Foundz.Net.Cli/Foundz.Net.Cli.csproj": {}
+    "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Cli\\Foundz.Net.Cli.csproj": {}
   },
   "projects": {
-    "/Users/mjtpena/dev/foundz.net/Foundz.Net.Cli/Foundz.Net.Cli.csproj": {
+    "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Cli\\Foundz.Net.Cli.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mjtpena/dev/foundz.net/Foundz.Net.Cli/Foundz.Net.Cli.csproj",
+        "projectUniqueName": "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Cli\\Foundz.Net.Cli.csproj",
         "projectName": "Foundz.Net.Cli",
-        "projectPath": "/Users/mjtpena/dev/foundz.net/Foundz.Net.Cli/Foundz.Net.Cli.csproj",
-        "packagesPath": "/Users/mjtpena/.nuget/packages/",
-        "outputPath": "/Users/mjtpena/dev/foundz.net/Foundz.Net.Cli/obj/",
+        "projectPath": "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Cli\\Foundz.Net.Cli.csproj",
+        "packagesPath": "C:\\Users\\mjtpena\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Cli\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/mjtpena/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\mjtpena\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/Users/mjtpena/dev/foundz.net/Foundz.Net.Core/Foundz.Net.Core.csproj": {
-                "projectPath": "/Users/mjtpena/dev/foundz.net/Foundz.Net.Core/Foundz.Net.Core.csproj"
+              "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Core\\Foundz.Net.Core.csproj": {
+                "projectPath": "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Core\\Foundz.Net.Core.csproj"
               },
-              "/Users/mjtpena/dev/foundz.net/Foundz.Net.Infrastructure/Foundz.Net.Infrastructure.csproj": {
-                "projectPath": "/Users/mjtpena/dev/foundz.net/Foundz.Net.Infrastructure/Foundz.Net.Infrastructure.csproj"
+              "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Infrastructure\\Foundz.Net.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Infrastructure\\Foundz.Net.Infrastructure.csproj"
               }
             }
           }
@@ -76,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -354,36 +360,42 @@
         }
       }
     },
-    "/Users/mjtpena/dev/foundz.net/Foundz.Net.Core/Foundz.Net.Core.csproj": {
+    "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Core\\Foundz.Net.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mjtpena/dev/foundz.net/Foundz.Net.Core/Foundz.Net.Core.csproj",
+        "projectUniqueName": "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Core\\Foundz.Net.Core.csproj",
         "projectName": "Foundz.Net.Core",
-        "projectPath": "/Users/mjtpena/dev/foundz.net/Foundz.Net.Core/Foundz.Net.Core.csproj",
-        "packagesPath": "/Users/mjtpena/.nuget/packages/",
-        "outputPath": "/Users/mjtpena/dev/foundz.net/Foundz.Net.Core/obj/",
+        "projectPath": "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Core\\Foundz.Net.Core.csproj",
+        "packagesPath": "C:\\Users\\mjtpena\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/mjtpena/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\mjtpena\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/Users/mjtpena/dev/foundz.net/Foundz.Net.Data/Foundz.Net.Data.csproj": {
-                "projectPath": "/Users/mjtpena/dev/foundz.net/Foundz.Net.Data/Foundz.Net.Data.csproj"
+              "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Data\\Foundz.Net.Data.csproj": {
+                "projectPath": "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Data\\Foundz.Net.Data.csproj"
               },
-              "/Users/mjtpena/dev/foundz.net/Foundz.Net.Shared/Foundz.Net.Shared.csproj": {
-                "projectPath": "/Users/mjtpena/dev/foundz.net/Foundz.Net.Shared/Foundz.Net.Shared.csproj"
+              "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Shared\\Foundz.Net.Shared.csproj": {
+                "projectPath": "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Shared\\Foundz.Net.Shared.csproj"
               },
-              "/Users/mjtpena/dev/foundz.net/Foundz.Net.Tools/Foundz.Net.Tools.csproj": {
-                "projectPath": "/Users/mjtpena/dev/foundz.net/Foundz.Net.Tools/Foundz.Net.Tools.csproj"
+              "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Tools\\Foundz.Net.Tools.csproj": {
+                "projectPath": "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Tools\\Foundz.Net.Tools.csproj"
               }
             }
           }
@@ -437,7 +449,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -715,30 +727,36 @@
         }
       }
     },
-    "/Users/mjtpena/dev/foundz.net/Foundz.Net.Data/Foundz.Net.Data.csproj": {
+    "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Data\\Foundz.Net.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mjtpena/dev/foundz.net/Foundz.Net.Data/Foundz.Net.Data.csproj",
+        "projectUniqueName": "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Data\\Foundz.Net.Data.csproj",
         "projectName": "Foundz.Net.Data",
-        "projectPath": "/Users/mjtpena/dev/foundz.net/Foundz.Net.Data/Foundz.Net.Data.csproj",
-        "packagesPath": "/Users/mjtpena/.nuget/packages/",
-        "outputPath": "/Users/mjtpena/dev/foundz.net/Foundz.Net.Data/obj/",
+        "projectPath": "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Data\\Foundz.Net.Data.csproj",
+        "packagesPath": "C:\\Users\\mjtpena\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/mjtpena/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\mjtpena\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/Users/mjtpena/dev/foundz.net/Foundz.Net.Shared/Foundz.Net.Shared.csproj": {
-                "projectPath": "/Users/mjtpena/dev/foundz.net/Foundz.Net.Shared/Foundz.Net.Shared.csproj"
+              "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Shared\\Foundz.Net.Shared.csproj": {
+                "projectPath": "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Shared\\Foundz.Net.Shared.csproj"
               }
             }
           }
@@ -786,7 +804,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1064,30 +1082,36 @@
         }
       }
     },
-    "/Users/mjtpena/dev/foundz.net/Foundz.Net.Infrastructure/Foundz.Net.Infrastructure.csproj": {
+    "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Infrastructure\\Foundz.Net.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mjtpena/dev/foundz.net/Foundz.Net.Infrastructure/Foundz.Net.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Infrastructure\\Foundz.Net.Infrastructure.csproj",
         "projectName": "Foundz.Net.Infrastructure",
-        "projectPath": "/Users/mjtpena/dev/foundz.net/Foundz.Net.Infrastructure/Foundz.Net.Infrastructure.csproj",
-        "packagesPath": "/Users/mjtpena/.nuget/packages/",
-        "outputPath": "/Users/mjtpena/dev/foundz.net/Foundz.Net.Infrastructure/obj/",
+        "projectPath": "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Infrastructure\\Foundz.Net.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\mjtpena\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/mjtpena/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\mjtpena\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/Users/mjtpena/dev/foundz.net/Foundz.Net.Shared/Foundz.Net.Shared.csproj": {
-                "projectPath": "/Users/mjtpena/dev/foundz.net/Foundz.Net.Shared/Foundz.Net.Shared.csproj"
+              "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Shared\\Foundz.Net.Shared.csproj": {
+                "projectPath": "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Shared\\Foundz.Net.Shared.csproj"
               }
             }
           }
@@ -1141,7 +1165,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1419,22 +1443,28 @@
         }
       }
     },
-    "/Users/mjtpena/dev/foundz.net/Foundz.Net.Shared/Foundz.Net.Shared.csproj": {
+    "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Shared\\Foundz.Net.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mjtpena/dev/foundz.net/Foundz.Net.Shared/Foundz.Net.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Shared\\Foundz.Net.Shared.csproj",
         "projectName": "Foundz.Net.Shared",
-        "projectPath": "/Users/mjtpena/dev/foundz.net/Foundz.Net.Shared/Foundz.Net.Shared.csproj",
-        "packagesPath": "/Users/mjtpena/.nuget/packages/",
-        "outputPath": "/Users/mjtpena/dev/foundz.net/Foundz.Net.Shared/obj/",
+        "projectPath": "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Shared\\Foundz.Net.Shared.csproj",
+        "packagesPath": "C:\\Users\\mjtpena\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Shared\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/mjtpena/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\mjtpena\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -1484,7 +1514,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1762,30 +1792,36 @@
         }
       }
     },
-    "/Users/mjtpena/dev/foundz.net/Foundz.Net.Tools/Foundz.Net.Tools.csproj": {
+    "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Tools\\Foundz.Net.Tools.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mjtpena/dev/foundz.net/Foundz.Net.Tools/Foundz.Net.Tools.csproj",
+        "projectUniqueName": "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Tools\\Foundz.Net.Tools.csproj",
         "projectName": "Foundz.Net.Tools",
-        "projectPath": "/Users/mjtpena/dev/foundz.net/Foundz.Net.Tools/Foundz.Net.Tools.csproj",
-        "packagesPath": "/Users/mjtpena/.nuget/packages/",
-        "outputPath": "/Users/mjtpena/dev/foundz.net/Foundz.Net.Tools/obj/",
+        "projectPath": "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Tools\\Foundz.Net.Tools.csproj",
+        "packagesPath": "C:\\Users\\mjtpena\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Tools\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/mjtpena/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\mjtpena\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/Users/mjtpena/dev/foundz.net/Foundz.Net.Shared/Foundz.Net.Shared.csproj": {
-                "projectPath": "/Users/mjtpena/dev/foundz.net/Foundz.Net.Shared/Foundz.Net.Shared.csproj"
+              "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Shared\\Foundz.Net.Shared.csproj": {
+                "projectPath": "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Shared\\Foundz.Net.Shared.csproj"
               }
             }
           }
@@ -1839,7 +1875,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

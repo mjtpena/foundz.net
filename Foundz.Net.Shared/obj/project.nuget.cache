@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "nq2DvS5OU6s=",
+  "dgSpecHash": "aATWifiFzLk=",
   "success": true,
-  "projectFilePath": "/Users/mjtpena/dev/foundz.net/Foundz.Net.Shared/Foundz.Net.Shared.csproj",
+  "projectFilePath": "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Shared\\Foundz.Net.Shared.csproj",
   "expectedPackageFiles": [
-    "/Users/mjtpena/.nuget/packages/fluentvalidation/12.1.1/fluentvalidation.12.1.1.nupkg.sha512",
-    "/Users/mjtpena/.nuget/packages/system.text.json/10.0.1/system.text.json.10.0.1.nupkg.sha512"
+    "C:\\Users\\mjtpena\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
+    "C:\\Users\\mjtpena\\.nuget\\packages\\system.text.json\\10.0.1\\system.text.json.10.0.1.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1510",
       "level": "Warning",
       "message": "PackageReference System.Text.Json will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
-      "projectPath": "/Users/mjtpena/dev/foundz.net/Foundz.Net.Shared/Foundz.Net.Shared.csproj",
+      "projectPath": "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Shared\\Foundz.Net.Shared.csproj",
       "warningLevel": 1,
-      "filePath": "/Users/mjtpena/dev/foundz.net/Foundz.Net.Shared/Foundz.Net.Shared.csproj",
+      "filePath": "C:\\Users\\mjtpena\\dev\\foundz.net\\Foundz.Net.Shared\\Foundz.Net.Shared.csproj",
       "libraryId": "System.Text.Json",
       "targetGraphs": [
         "net10.0"
