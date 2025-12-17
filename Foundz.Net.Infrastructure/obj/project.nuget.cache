@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "MT3DD9cWveM=",
+  "success": true,
+  "projectFilePath": "/Users/mjtpena/dev/foundz.net/Foundz.Net.Infrastructure/Foundz.Net.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "/Users/mjtpena/.nuget/packages/fluentvalidation/12.1.1/fluentvalidation.12.1.1.nupkg.sha512",
+    "/Users/mjtpena/.nuget/packages/microsoft.extensions.configuration/10.0.1/microsoft.extensions.configuration.10.0.1.nupkg.sha512",
+    "/Users/mjtpena/.nuget/packages/microsoft.extensions.configuration.abstractions/10.0.1/microsoft.extensions.configuration.abstractions.10.0.1.nupkg.sha512",
+    "/Users/mjtpena/.nuget/packages/microsoft.extensions.primitives/10.0.1/microsoft.extensions.primitives.10.0.1.nupkg.sha512",
+    "/Users/mjtpena/.nuget/packages/serilog/4.3.0/serilog.4.3.0.nupkg.sha512",
+    "/Users/mjtpena/.nuget/packages/serilog.sinks.console/6.1.1/serilog.sinks.console.6.1.1.nupkg.sha512",
+    "/Users/mjtpena/.nuget/packages/serilog.sinks.file/7.0.0/serilog.sinks.file.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
