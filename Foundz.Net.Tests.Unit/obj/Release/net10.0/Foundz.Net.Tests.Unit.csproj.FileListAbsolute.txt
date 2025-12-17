@@ -331,3 +331,14 @@
 /Users/mjtpena/dev/foundz.net/tests/Foundz.Net.Tests.Unit/obj/Release/net10.0/Foundz.Net.Tests.Unit.pdb
 /Users/mjtpena/dev/foundz.net/tests/Foundz.Net.Tests.Unit/obj/Release/net10.0/Foundz.Net.Tests.Unit.genruntimeconfig.cache
 /Users/mjtpena/dev/foundz.net/tests/Foundz.Net.Tests.Unit/obj/Release/net10.0/ref/Foundz.Net.Tests.Unit.dll
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Unit\bin\Release\net10.0\.msCoverageSourceRootsMapping_Foundz.Net.Tests.Unit
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Unit\bin\Release\net10.0\CoverletSourceRootsMapping_Foundz.Net.Tests.Unit
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Unit\obj\Release\net10.0\Foundz.Net.Tests.Unit.csproj.AssemblyReference.cache
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Unit\obj\Release\net10.0\Foundz.Net.Tests.Unit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Unit\obj\Release\net10.0\Foundz.Net.Tests.Unit.AssemblyInfoInputs.cache
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Unit\obj\Release\net10.0\Foundz.Net.Tests.Unit.AssemblyInfo.cs
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Unit\obj\Release\net10.0\Foundz.Net.Tests.Unit.csproj.CoreCompileInputs.cache
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Unit\obj\Release\net10.0\Foundz.Net.Tests.Unit.sourcelink.json
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Unit\obj\Release\net10.0\Foundz.Net.Tests.Unit.dll
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Unit\obj\Release\net10.0\refint\Foundz.Net.Tests.Unit.dll
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Unit\obj\Release\net10.0\Foundz.Net.Tests.Unit.pdb

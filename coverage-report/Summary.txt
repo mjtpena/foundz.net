@@ -1,162 +1,139 @@
 Summary
-  Generated on: 17/12/2025 - 11:58:52 PM
-  Coverage date: 17/12/2025 - 8:43:32 PM - 17/12/2025 - 11:58:40 PM
-  Parser: MultiReport (24x Cobertura)
-  Assemblies: 6
-  Classes: 130
-  Files: 84
-  Line coverage: 18.2%
-  Covered lines: 2158
-  Uncovered lines: 9658
-  Coverable lines: 11816
-  Total lines: 17775
-  Branch coverage: 18.9% (592 of 3125)
-  Covered branches: 592
-  Total branches: 3125
-  Method coverage: 29.1% (318 of 1090)
-  Full method coverage: 24.4% (266 of 1090)
-  Covered methods: 318
-  Fully covered methods: 266
-  Total methods: 1090
+  Generated on: 18/12/2025 - 12:08:07 AM
+  Coverage date: 18/12/2025 - 12:07:58 AM
+  Parser: Cobertura
+  Assemblies: 4
+  Classes: 111
+  Files: 77
+  Line coverage: 29.6%
+  Covered lines: 3181
+  Uncovered lines: 7536
+  Coverable lines: 10717
+  Total lines: 15869
+  Branch coverage: 27.7% (805 of 2903)
+  Covered branches: 805
+  Total branches: 2903
+  Method coverage: 47.8% (474 of 991)
+  Full method coverage: 41.6% (413 of 991)
+  Covered methods: 474
+  Fully covered methods: 413
+  Total methods: 991
 
-Foundz.Net.Cli                                                             0%
-  Foundz.Net.Cli.Commands.ChatCommand                                      0%
-  Foundz.Net.Cli.Commands.CostsCommand                                     0%
-  Foundz.Net.Cli.Commands.ModelsCommand                                    0%
-  Foundz.Net.Cli.Commands.StatsCommand                                     0%
-  Foundz.Net.Cli.Commands.TaskCommand                                      0%
-  Foundz.Net.Cli.Program                                                   0%
+Foundz.Net.Core                                          43.7%
+  Foundz.Net.Core.AI.Adapters.AnthropicAdapter              0%
+  Foundz.Net.Core.AI.Adapters.CohereCmdRAdapter             0%
+  Foundz.Net.Core.AI.Adapters.MetaLlamaAdapter              0%
+  Foundz.Net.Core.AI.Adapters.MistralAdapter                0%
+  Foundz.Net.Core.AI.Adapters.OpenAIAdapter                 0%
+  Foundz.Net.Core.AI.AggregatedMetrics                    100%
+  Foundz.Net.Core.AI.AzureAIClient                       98.7%
+  Foundz.Net.Core.AI.CostEntry                            100%
+  Foundz.Net.Core.AI.CostTracker                          100%
+  Foundz.Net.Core.AI.ModelCapabilityDetector             97.4%
+  Foundz.Net.Core.AI.ModelCostBreakdown                   100%
+  Foundz.Net.Core.AI.ModelMetrics                         100%
+  Foundz.Net.Core.AI.ModelPricing                         100%
+  Foundz.Net.Core.AI.ModelRequirements                   83.3%
+  Foundz.Net.Core.AI.RequestMetric                        100%
+  Foundz.Net.Core.AI.RequestMetricsCollector             99.2%
+  Foundz.Net.Core.AI.RequestTracker                      97.8%
+  Foundz.Net.Core.AI.SessionCostSummary                   100%
+  Foundz.Net.Core.AI.UsageStatistics                      100%
+  Foundz.Net.Core.AI.ValidationResult                     100%
+  Foundz.Net.Core.Memory.CodebaseIndex                      0%
+  Foundz.Net.Core.Memory.CodebaseIndexer                    0%
+  Foundz.Net.Core.Memory.FileChangedEventArgs               0%
+  Foundz.Net.Core.Memory.FileIndex                          0%
+  Foundz.Net.Core.Memory.FileWatcherService                 0%
+  Foundz.Net.Core.Memory.IndexStorage                       0%
+  Foundz.Net.Core.Memory.IndexUpdatedEventArgs              0%
+  Foundz.Net.Core.Memory.MemoryContext                      0%
+  Foundz.Net.Core.Memory.MemoryEntry                        0%
+  Foundz.Net.Core.Memory.RelevanceFactors                   0%
+  Foundz.Net.Core.Memory.RelevanceScorer                    0%
+  Foundz.Net.Core.Memory.ScoredFile                         0%
+  Foundz.Net.Core.Memory.SemanticMemoryService              0%
+  Foundz.Net.Core.Memory.SymbolInfo                         0%
+  Foundz.Net.Core.Orchestration.AgentOrchestrator           0%
+  Foundz.Net.Core.Orchestration.ContextManager           86.3%
+  Foundz.Net.Core.Orchestration.ConversationHistory      91.8%
+  Foundz.Net.Core.Orchestration.ConversationSummary       100%
+  Foundz.Net.Core.Orchestration.ToolCallParser           87.5%
+  Foundz.Net.Core.Orchestration.ToolResultFormatter      99.3%
+  Foundz.Net.Core.Planning.PlanningContext                100%
+  Foundz.Net.Core.Planning.PlanProgress                   100%
+  Foundz.Net.Core.Planning.ProgressEventArgs              100%
+  Foundz.Net.Core.Planning.ProgressState                  100%
+  Foundz.Net.Core.Planning.ProgressTracker               97.9%
+  Foundz.Net.Core.Planning.TaskPlan                       100%
+  Foundz.Net.Core.Planning.TaskPlanner                   99.5%
+  Foundz.Net.Core.Planning.TaskStep                      85.7%
+  Foundz.Net.Core.Session.SessionManager                 95.9%
+  Foundz.Net.Core.ToolRegistry.ToolConfirmation             0%
+  Foundz.Net.Core.ToolRegistry.ToolConfirmationManager   12.8%
+  Foundz.Net.Core.ToolRegistry.ToolConfirmationPrompt       0%
+  Foundz.Net.Core.ToolRegistry.ToolExecutor              60.7%
+  Foundz.Net.Core.ToolRegistry.ToolRegistry              59.8%
+  Foundz.Net.Core.ToolRegistry.ToolSchemaGenerator          0%
 
-Foundz.Net.Core                                                           21%
-  Foundz.Net.Core.AI.Adapters.AnthropicAdapter                             0%
-  Foundz.Net.Core.AI.Adapters.CohereCmdRAdapter                            0%
-  Foundz.Net.Core.AI.Adapters.MetaLlamaAdapter                             0%
-  Foundz.Net.Core.AI.Adapters.MistralAdapter                               0%
-  Foundz.Net.Core.AI.Adapters.OpenAIAdapter                                0%
-  Foundz.Net.Core.AI.AggregatedMetrics                                     0%
-  Foundz.Net.Core.AI.AzureAIClient                                         0%
-  Foundz.Net.Core.AI.CostEntry                                             0%
-  Foundz.Net.Core.AI.CostTracker                                           0%
-  Foundz.Net.Core.AI.ModelCapabilityDetector                               0%
-  Foundz.Net.Core.AI.ModelCostBreakdown                                    0%
-  Foundz.Net.Core.AI.ModelMetrics                                          0%
-  Foundz.Net.Core.AI.ModelPricing                                          0%
-  Foundz.Net.Core.AI.ModelRequirements                                     0%
-  Foundz.Net.Core.AI.RequestMetric                                         0%
-  Foundz.Net.Core.AI.RequestMetricsCollector                               0%
-  Foundz.Net.Core.AI.RequestTracker                                        0%
-  Foundz.Net.Core.AI.SessionCostSummary                                    0%
-  Foundz.Net.Core.AI.UsageStatistics                                       0%
-  Foundz.Net.Core.AI.ValidationResult                                      0%
-  Foundz.Net.Core.Memory.CodebaseIndex                                     0%
-  Foundz.Net.Core.Memory.CodebaseIndexer                                   0%
-  Foundz.Net.Core.Memory.FileChangedEventArgs                              0%
-  Foundz.Net.Core.Memory.FileIndex                                         0%
-  Foundz.Net.Core.Memory.FileWatcherService                                0%
-  Foundz.Net.Core.Memory.IndexStorage                                      0%
-  Foundz.Net.Core.Memory.IndexUpdatedEventArgs                             0%
-  Foundz.Net.Core.Memory.MemoryContext                                     0%
-  Foundz.Net.Core.Memory.MemoryEntry                                       0%
-  Foundz.Net.Core.Memory.RelevanceFactors                                  0%
-  Foundz.Net.Core.Memory.RelevanceScorer                                   0%
-  Foundz.Net.Core.Memory.ScoredFile                                        0%
-  Foundz.Net.Core.Memory.SemanticMemoryService                             0%
-  Foundz.Net.Core.Memory.SymbolInfo                                        0%
-  Foundz.Net.Core.Orchestration.AgentOrchestrator                          0%
-  Foundz.Net.Core.Orchestration.ContextManager                          86.3%
-  Foundz.Net.Core.Orchestration.ConversationHistory                        0%
-  Foundz.Net.Core.Orchestration.ConversationSummary                        0%
-  Foundz.Net.Core.Orchestration.ToolCallParser                          87.5%
-  Foundz.Net.Core.Orchestration.ToolResultFormatter                        0%
-  Foundz.Net.Core.Planning.PlanningContext                               100%
-  Foundz.Net.Core.Planning.PlanProgress                                  100%
-  Foundz.Net.Core.Planning.ProgressEventArgs                             100%
-  Foundz.Net.Core.Planning.ProgressState                                 100%
-  Foundz.Net.Core.Planning.ProgressTracker                              97.9%
-  Foundz.Net.Core.Planning.TaskPlan                                      100%
-  Foundz.Net.Core.Planning.TaskPlanner                                  99.5%
-  Foundz.Net.Core.Planning.TaskStep                                     85.7%
-  Foundz.Net.Core.Session.SessionManager                                95.9%
-  Foundz.Net.Core.ToolRegistry.ToolConfirmation                            0%
-  Foundz.Net.Core.ToolRegistry.ToolConfirmationManager                     0%
-  Foundz.Net.Core.ToolRegistry.ToolConfirmationPrompt                      0%
-  Foundz.Net.Core.ToolRegistry.ToolExecutor                             60.7%
-  Foundz.Net.Core.ToolRegistry.ToolRegistry                             59.8%
-  Foundz.Net.Core.ToolRegistry.ToolSchemaGenerator                         0%
+Foundz.Net.Data                                             0%
+  Foundz.Net.Data.Context.FoundzDbContext                   0%
+  Foundz.Net.Data.Entities.MessageEntity                    0%
+  Foundz.Net.Data.Entities.SessionEntity                    0%
+  Foundz.Net.Data.Entities.ToolExecutionEntity              0%
 
-Foundz.Net.Data                                                            0%
-  Foundz.Net.Data.Context.FoundzDbContext                                  0%
-  Foundz.Net.Data.Entities.MessageEntity                                   0%
-  Foundz.Net.Data.Entities.SessionEntity                                   0%
-  Foundz.Net.Data.Entities.ToolExecutionEntity                             0%
+Foundz.Net.Shared                                          82%
+  Foundz.Net.Shared.Interfaces.AgentEvent                   0%
+  Foundz.Net.Shared.Interfaces.AgentResponse                0%
+  Foundz.Net.Shared.Interfaces.AIResponse                 100%
+  Foundz.Net.Shared.Interfaces.AIResponseChunk             75%
+  Foundz.Net.Shared.Interfaces.TokenUsage                66.6%
+  Foundz.Net.Shared.Interfaces.ToolDefinition             100%
+  Foundz.Net.Shared.Models.Message                        100%
+  Foundz.Net.Shared.Models.ModelCapabilities              100%
+  Foundz.Net.Shared.Models.Session                        100%
+  Foundz.Net.Shared.Models.ToolCall                       100%
+  Foundz.Net.Shared.Models.ToolResult                     100%
 
-Foundz.Net.Infrastructure                                                  0%
-  Foundz.Net.Infrastructure.Configuration.AgentConfiguration               0%
-  Foundz.Net.Infrastructure.Configuration.AuthenticationConfiguration      0%
-  Foundz.Net.Infrastructure.Configuration.AzureConfiguration               0%
-  Foundz.Net.Infrastructure.Configuration.ConfirmationConfiguration        0%
-  Foundz.Net.Infrastructure.Configuration.FoundzConfiguration              0%
-  Foundz.Net.Infrastructure.Configuration.LoggingConfiguration             0%
-  Foundz.Net.Infrastructure.Configuration.ModelConfiguration               0%
-  Foundz.Net.Infrastructure.Configuration.SecurityConfiguration            0%
-  Foundz.Net.Infrastructure.Configuration.ShellConfiguration               0%
-  Foundz.Net.Infrastructure.Configuration.StorageConfiguration             0%
-  Foundz.Net.Infrastructure.Configuration.TelemetryConfiguration           0%
-  Foundz.Net.Infrastructure.Configuration.ToolConfiguration                0%
-  Foundz.Net.Infrastructure.Configuration.UIConfiguration                  0%
-
-Foundz.Net.Shared                                                       56.7%
-  Foundz.Net.Shared.Interfaces.AgentEvent                                  0%
-  Foundz.Net.Shared.Interfaces.AgentResponse                               0%
-  Foundz.Net.Shared.Interfaces.AIResponse                                 80%
-  Foundz.Net.Shared.Interfaces.AIResponseChunk                             0%
-  Foundz.Net.Shared.Interfaces.TokenUsage                               66.6%
-  Foundz.Net.Shared.Interfaces.ToolDefinition                            100%
-  Foundz.Net.Shared.Models.Message                                       100%
-  Foundz.Net.Shared.Models.ModelCapabilities                               0%
-  Foundz.Net.Shared.Models.Session                                       100%
-  Foundz.Net.Shared.Models.ToolCall                                      100%
-  Foundz.Net.Shared.Models.ToolResult                                    100%
-
-Foundz.Net.Tools                                                        19.2%
-  Foundz.Net.Tools.CodeAnalysis.AnalyzeComplexityTool                    8.5%
-  Foundz.Net.Tools.CodeAnalysis.DetectDuplicationTool                    7.1%
-  Foundz.Net.Tools.CodeAnalysis.FindReferencesTool                      10.7%
-  Foundz.Net.Tools.CodeAnalysis.GetDefinitionTool                         10%
-  Foundz.Net.Tools.CodeAnalysis.LintCodeTool                             9.5%
-  Foundz.Net.Tools.CodeAnalysis.ParseCodeTool                           13.2%
-  Foundz.Net.Tools.Documentation.ExplainCodeTool                         8.4%
-  Foundz.Net.Tools.Documentation.GenerateDocsTool                          8%
-  Foundz.Net.Tools.File.CopyFileTool                                      26%
-  Foundz.Net.Tools.File.CreateDirectoryTool                             24.7%
-  Foundz.Net.Tools.File.DeleteFileTool                                  56.8%
-  Foundz.Net.Tools.File.EditFileTool                                    26.8%
-  Foundz.Net.Tools.File.GetFileInfoTool                                 44.4%
-  Foundz.Net.Tools.File.ListDirectoryTool                               45.8%
-  Foundz.Net.Tools.File.ReadFileTool                                    54.5%
-  Foundz.Net.Tools.File.RenameFileTool                                  30.1%
-  Foundz.Net.Tools.File.SearchFilesTool                                 32.4%
-  Foundz.Net.Tools.File.WriteFileTool                                   51.2%
-  Foundz.Net.Tools.Git.GitAddTool                                       39.2%
-  Foundz.Net.Tools.Git.GitBranchTool                                    23.2%
-  Foundz.Net.Tools.Git.GitCheckoutTool                                  14.6%
-  Foundz.Net.Tools.Git.GitCommitTool                                    32.3%
-  Foundz.Net.Tools.Git.GitDiffTool                                      35.2%
-  Foundz.Net.Tools.Git.GitLogTool                                       40.3%
-  Foundz.Net.Tools.Git.GitPullTool                                      21.1%
-  Foundz.Net.Tools.Git.GitPushTool                                      18.6%
-  Foundz.Net.Tools.Git.GitStashTool                                     11.7%
-  Foundz.Net.Tools.Git.GitStatusTool                                    47.4%
-  Foundz.Net.Tools.Refactoring.ExtractInterfaceTool                        8%
-  Foundz.Net.Tools.Refactoring.ExtractMethodTool                        14.1%
-  Foundz.Net.Tools.Refactoring.InlineVariableTool                        8.2%
-  Foundz.Net.Tools.Refactoring.MoveClassTool                             7.5%
-  Foundz.Net.Tools.Refactoring.RenameSymbolTool                          9.3%
-  Foundz.Net.Tools.Search.SearchCodebaseTool                             8.9%
-  Foundz.Net.Tools.Search.SearchDependenciesTool                         6.5%
-  Foundz.Net.Tools.Search.SearchDocumentationTool                        9.2%
-  Foundz.Net.Tools.Shell.BuildProjectTool                                  3%
-  Foundz.Net.Tools.Shell.ExecuteCommandTool                             54.2%
-  Foundz.Net.Tools.Shell.RunTestsTool                                    3.5%
-  Foundz.Net.Tools.Testing.AnalyzeCoverageTool                          10.2%
-  Foundz.Net.Tools.Testing.GenerateTestTool                               10%
+Foundz.Net.Tools                                         18.6%
+  Foundz.Net.Tools.CodeAnalysis.AnalyzeComplexityTool     8.5%
+  Foundz.Net.Tools.CodeAnalysis.DetectDuplicationTool     7.1%
+  Foundz.Net.Tools.CodeAnalysis.FindReferencesTool       10.7%
+  Foundz.Net.Tools.CodeAnalysis.GetDefinitionTool          10%
+  Foundz.Net.Tools.CodeAnalysis.LintCodeTool              9.5%
+  Foundz.Net.Tools.CodeAnalysis.ParseCodeTool            13.2%
+  Foundz.Net.Tools.Documentation.ExplainCodeTool          8.4%
+  Foundz.Net.Tools.Documentation.GenerateDocsTool         7.5%
+  Foundz.Net.Tools.File.CopyFileTool                       26%
+  Foundz.Net.Tools.File.CreateDirectoryTool              24.7%
+  Foundz.Net.Tools.File.DeleteFileTool                   56.8%
+  Foundz.Net.Tools.File.EditFileTool                     26.8%
+  Foundz.Net.Tools.File.GetFileInfoTool                  44.4%
+  Foundz.Net.Tools.File.ListDirectoryTool                45.8%
+  Foundz.Net.Tools.File.ReadFileTool                     54.5%
+  Foundz.Net.Tools.File.RenameFileTool                   30.1%
+  Foundz.Net.Tools.File.SearchFilesTool                  32.4%
+  Foundz.Net.Tools.File.WriteFileTool                    51.2%
+  Foundz.Net.Tools.Git.GitAddTool                        34.5%
+  Foundz.Net.Tools.Git.GitBranchTool                     23.2%
+  Foundz.Net.Tools.Git.GitCheckoutTool                   13.7%
+  Foundz.Net.Tools.Git.GitCommitTool                     21.2%
+  Foundz.Net.Tools.Git.GitDiffTool                       34.5%
+  Foundz.Net.Tools.Git.GitLogTool                        39.4%
+  Foundz.Net.Tools.Git.GitPullTool                       21.1%
+  Foundz.Net.Tools.Git.GitPushTool                       17.7%
+  Foundz.Net.Tools.Git.GitStashTool                      11.7%
+  Foundz.Net.Tools.Git.GitStatusTool                     38.8%
+  Foundz.Net.Tools.Refactoring.ExtractInterfaceTool         8%
+  Foundz.Net.Tools.Refactoring.ExtractMethodTool         14.1%
+  Foundz.Net.Tools.Refactoring.InlineVariableTool         8.2%
+  Foundz.Net.Tools.Refactoring.MoveClassTool              7.5%
+  Foundz.Net.Tools.Refactoring.RenameSymbolTool           9.3%
+  Foundz.Net.Tools.Search.SearchCodebaseTool              8.9%
+  Foundz.Net.Tools.Search.SearchDependenciesTool          6.5%
+  Foundz.Net.Tools.Search.SearchDocumentationTool         9.2%
+  Foundz.Net.Tools.Shell.BuildProjectTool                   3%
+  Foundz.Net.Tools.Shell.ExecuteCommandTool              54.2%
+  Foundz.Net.Tools.Shell.RunTestsTool                     3.5%
+  Foundz.Net.Tools.Testing.AnalyzeCoverageTool           10.2%
+  Foundz.Net.Tools.Testing.GenerateTestTool               9.4%

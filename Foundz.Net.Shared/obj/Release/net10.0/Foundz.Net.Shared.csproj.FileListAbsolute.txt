@@ -10,3 +10,16 @@
 /Users/mjtpena/dev/foundz.net/src/Foundz.Net.Shared/obj/Release/net10.0/refint/Foundz.Net.Shared.dll
 /Users/mjtpena/dev/foundz.net/src/Foundz.Net.Shared/obj/Release/net10.0/Foundz.Net.Shared.pdb
 /Users/mjtpena/dev/foundz.net/src/Foundz.Net.Shared/obj/Release/net10.0/ref/Foundz.Net.Shared.dll
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Shared\bin\Release\net10.0\Foundz.Net.Shared.deps.json
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Shared\bin\Release\net10.0\Foundz.Net.Shared.dll
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Shared\bin\Release\net10.0\Foundz.Net.Shared.pdb
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Shared\obj\Release\net10.0\Foundz.Net.Shared.csproj.AssemblyReference.cache
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Shared\obj\Release\net10.0\Foundz.Net.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Shared\obj\Release\net10.0\Foundz.Net.Shared.AssemblyInfoInputs.cache
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Shared\obj\Release\net10.0\Foundz.Net.Shared.AssemblyInfo.cs
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Shared\obj\Release\net10.0\Foundz.Net.Shared.csproj.CoreCompileInputs.cache
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Shared\obj\Release\net10.0\Foundz.Net.Shared.sourcelink.json
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Shared\obj\Release\net10.0\Foundz.Net.Shared.dll
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Shared\obj\Release\net10.0\refint\Foundz.Net.Shared.dll
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Shared\obj\Release\net10.0\Foundz.Net.Shared.pdb
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Shared\obj\Release\net10.0\ref\Foundz.Net.Shared.dll

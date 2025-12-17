@@ -70,12 +70,6 @@
 /Users/mjtpena/dev/foundz.net/src/Foundz.Net.Core/bin/Debug/net10.0/BuildHost-netcore/System.Text.Encodings.Web.dll
 /Users/mjtpena/dev/foundz.net/src/Foundz.Net.Core/bin/Debug/net10.0/BuildHost-netcore/System.Text.Json.dll
 /Users/mjtpena/dev/foundz.net/src/Foundz.Net.Core/bin/Debug/net10.0/BuildHost-netcore/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
-C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Core\obj\Debug\net10.0\Foundz.Net.Core.csproj.AssemblyReference.cache
-C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Core\obj\Debug\net10.0\Foundz.Net.Core.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Core\obj\Debug\net10.0\Foundz.Net.Core.AssemblyInfoInputs.cache
-C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Core\obj\Debug\net10.0\Foundz.Net.Core.AssemblyInfo.cs
-C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Core\obj\Debug\net10.0\Foundz.Net.Core.csproj.CoreCompileInputs.cache
-C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Core\obj\Debug\net10.0\Foundz.Net.Core.sourcelink.json
 C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Core\bin\Debug\net10.0\BuildHost-net472\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Core\bin\Debug\net10.0\BuildHost-net472\Microsoft.Build.Locator.dll
 C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Core\bin\Debug\net10.0\BuildHost-net472\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.exe
@@ -138,6 +132,12 @@ C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Core\bin\Debug\net10.0\Foundz.Net.Too
 C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Core\bin\Debug\net10.0\Foundz.Net.Tools.pdb
 C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Core\bin\Debug\net10.0\Foundz.Net.Data.pdb
 C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Core\bin\Debug\net10.0\Foundz.Net.Shared.pdb
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Core\obj\Debug\net10.0\Foundz.Net.Core.csproj.AssemblyReference.cache
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Core\obj\Debug\net10.0\Foundz.Net.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Core\obj\Debug\net10.0\Foundz.Net.Core.AssemblyInfoInputs.cache
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Core\obj\Debug\net10.0\Foundz.Net.Core.AssemblyInfo.cs
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Core\obj\Debug\net10.0\Foundz.Net.Core.csproj.CoreCompileInputs.cache
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Core\obj\Debug\net10.0\Foundz.Net.Core.sourcelink.json
 C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Core\obj\Debug\net10.0\Foundz.N.31345626.Up2Date
 C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Core\obj\Debug\net10.0\Foundz.Net.Core.dll
 C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Core\obj\Debug\net10.0\refint\Foundz.Net.Core.dll

@@ -211,16 +211,6 @@ for (i = 0, l = charts.length; i < l; i++) {
 
 var assemblies = [
   {
-    "name": "Foundz.Net.Cli",
-    "classes": [
-      { "name": "Foundz.Net.Cli.Commands.ChatCommand", "rp": "Foundz.Net.Cli_ChatCommand.html", "cl": 0, "ucl": 266, "cal": 266, "tl": 415, "cb": 0, "tb": 86, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Cli.Commands.CostsCommand", "rp": "Foundz.Net.Cli_CostsCommand.html", "cl": 0, "ucl": 114, "cal": 114, "tl": 171, "cb": 0, "tb": 16, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Cli.Commands.ModelsCommand", "rp": "Foundz.Net.Cli_ModelsCommand.html", "cl": 0, "ucl": 159, "cal": 159, "tl": 222, "cb": 0, "tb": 16, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Cli.Commands.StatsCommand", "rp": "Foundz.Net.Cli_StatsCommand.html", "cl": 0, "ucl": 98, "cal": 98, "tl": 147, "cb": 0, "tb": 14, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Cli.Commands.TaskCommand", "rp": "Foundz.Net.Cli_TaskCommand.html", "cl": 0, "ucl": 190, "cal": 190, "tl": 308, "cb": 0, "tb": 56, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Cli.Program", "rp": "Foundz.Net.Cli_Program.html", "cl": 0, "ucl": 211, "cal": 211, "tl": 254, "cb": 0, "tb": 34, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-    ]},
-  {
     "name": "Foundz.Net.Core",
     "classes": [
       { "name": "Foundz.Net.Core.AI.Adapters.AnthropicAdapter", "rp": "Foundz.Net.Core_AnthropicAdapter.html", "cl": 0, "ucl": 76, "cal": 76, "tl": 106, "cb": 0, "tb": 12, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -228,21 +218,21 @@ var assemblies = [
       { "name": "Foundz.Net.Core.AI.Adapters.MetaLlamaAdapter", "rp": "Foundz.Net.Core_MetaLlamaAdapter.html", "cl": 0, "ucl": 76, "cal": 76, "tl": 102, "cb": 0, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Core.AI.Adapters.MistralAdapter", "rp": "Foundz.Net.Core_MistralAdapter.html", "cl": 0, "ucl": 200, "cal": 200, "tl": 289, "cb": 0, "tb": 75, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Core.AI.Adapters.OpenAIAdapter", "rp": "Foundz.Net.Core_OpenAIAdapter.html", "cl": 0, "ucl": 89, "cal": 89, "tl": 115, "cb": 0, "tb": 16, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Core.AI.AggregatedMetrics", "rp": "Foundz.Net.Core_AggregatedMetrics.html", "cl": 0, "ucl": 15, "cal": 15, "tl": 368, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Core.AI.AzureAIClient", "rp": "Foundz.Net.Core_AzureAIClient.html", "cl": 0, "ucl": 81, "cal": 81, "tl": 133, "cb": 0, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Core.AI.CostEntry", "rp": "Foundz.Net.Core_CostEntry.html", "cl": 0, "ucl": 8, "cal": 8, "tl": 380, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Core.AI.CostTracker", "rp": "Foundz.Net.Core_CostTracker.html", "cl": 0, "ucl": 207, "cal": 207, "tl": 380, "cb": 0, "tb": 16, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Core.AI.ModelCapabilityDetector", "rp": "Foundz.Net.Core_ModelCapabilityDetector.html", "cl": 0, "ucl": 237, "cal": 237, "tl": 388, "cb": 0, "tb": 134, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Core.AI.ModelCostBreakdown", "rp": "Foundz.Net.Core_ModelCostBreakdown.html", "cl": 0, "ucl": 5, "cal": 5, "tl": 380, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Core.AI.ModelMetrics", "rp": "Foundz.Net.Core_ModelMetrics.html", "cl": 0, "ucl": 11, "cal": 11, "tl": 368, "cb": 0, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Core.AI.ModelPricing", "rp": "Foundz.Net.Core_ModelPricing.html", "cl": 0, "ucl": 3, "cal": 3, "tl": 380, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Core.AI.ModelRequirements", "rp": "Foundz.Net.Core_ModelRequirements.html", "cl": 0, "ucl": 6, "cal": 6, "tl": 388, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Core.AI.RequestMetric", "rp": "Foundz.Net.Core_RequestMetric.html", "cl": 0, "ucl": 8, "cal": 8, "tl": 368, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Core.AI.RequestMetricsCollector", "rp": "Foundz.Net.Core_RequestMetricsCollector.html", "cl": 0, "ucl": 141, "cal": 141, "tl": 368, "cb": 0, "tb": 34, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Core.AI.RequestTracker", "rp": "Foundz.Net.Core_RequestTracker.html", "cl": 0, "ucl": 47, "cal": 47, "tl": 368, "cb": 0, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Core.AI.SessionCostSummary", "rp": "Foundz.Net.Core_SessionCostSummary.html", "cl": 0, "ucl": 8, "cal": 8, "tl": 380, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Core.AI.UsageStatistics", "rp": "Foundz.Net.Core_UsageStatistics.html", "cl": 0, "ucl": 8, "cal": 8, "tl": 380, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Core.AI.ValidationResult", "rp": "Foundz.Net.Core_ValidationResult.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 388, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Core.AI.AggregatedMetrics", "rp": "Foundz.Net.Core_AggregatedMetrics.html", "cl": 15, "ucl": 0, "cal": 15, "tl": 368, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Core.AI.AzureAIClient", "rp": "Foundz.Net.Core_AzureAIClient.html", "cl": 80, "ucl": 1, "cal": 81, "tl": 133, "cb": 5, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Core.AI.CostEntry", "rp": "Foundz.Net.Core_CostEntry.html", "cl": 8, "ucl": 0, "cal": 8, "tl": 380, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Core.AI.CostTracker", "rp": "Foundz.Net.Core_CostTracker.html", "cl": 207, "ucl": 0, "cal": 207, "tl": 380, "cb": 15, "tb": 16, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Core.AI.ModelCapabilityDetector", "rp": "Foundz.Net.Core_ModelCapabilityDetector.html", "cl": 231, "ucl": 6, "cal": 237, "tl": 388, "cb": 88, "tb": 134, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Core.AI.ModelCostBreakdown", "rp": "Foundz.Net.Core_ModelCostBreakdown.html", "cl": 5, "ucl": 0, "cal": 5, "tl": 380, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Core.AI.ModelMetrics", "rp": "Foundz.Net.Core_ModelMetrics.html", "cl": 11, "ucl": 0, "cal": 11, "tl": 368, "cb": 2, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Core.AI.ModelPricing", "rp": "Foundz.Net.Core_ModelPricing.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 380, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Core.AI.ModelRequirements", "rp": "Foundz.Net.Core_ModelRequirements.html", "cl": 5, "ucl": 1, "cal": 6, "tl": 388, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Core.AI.RequestMetric", "rp": "Foundz.Net.Core_RequestMetric.html", "cl": 8, "ucl": 0, "cal": 8, "tl": 368, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Core.AI.RequestMetricsCollector", "rp": "Foundz.Net.Core_RequestMetricsCollector.html", "cl": 140, "ucl": 1, "cal": 141, "tl": 368, "cb": 28, "tb": 34, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Core.AI.RequestTracker", "rp": "Foundz.Net.Core_RequestTracker.html", "cl": 46, "ucl": 1, "cal": 47, "tl": 368, "cb": 6, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Core.AI.SessionCostSummary", "rp": "Foundz.Net.Core_SessionCostSummary.html", "cl": 8, "ucl": 0, "cal": 8, "tl": 380, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Core.AI.UsageStatistics", "rp": "Foundz.Net.Core_UsageStatistics.html", "cl": 8, "ucl": 0, "cal": 8, "tl": 380, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Core.AI.ValidationResult", "rp": "Foundz.Net.Core_ValidationResult.html", "cl": 4, "ucl": 0, "cal": 4, "tl": 388, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Core.Memory.CodebaseIndex", "rp": "Foundz.Net.Core_CodebaseIndex.html", "cl": 0, "ucl": 8, "cal": 8, "tl": 635, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Core.Memory.CodebaseIndexer", "rp": "Foundz.Net.Core_CodebaseIndexer.html", "cl": 0, "ucl": 406, "cal": 406, "tl": 635, "cb": 0, "tb": 204, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Core.Memory.FileChangedEventArgs", "rp": "Foundz.Net.Core_FileChangedEventArgs.html", "cl": 0, "ucl": 3, "cal": 3, "tl": 267, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -259,10 +249,10 @@ var assemblies = [
       { "name": "Foundz.Net.Core.Memory.SymbolInfo", "rp": "Foundz.Net.Core_SymbolInfo.html", "cl": 0, "ucl": 5, "cal": 5, "tl": 635, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Core.Orchestration.AgentOrchestrator", "rp": "Foundz.Net.Core_AgentOrchestrator.html", "cl": 0, "ucl": 250, "cal": 250, "tl": 379, "cb": 0, "tb": 42, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Core.Orchestration.ContextManager", "rp": "Foundz.Net.Core_ContextManager.html", "cl": 126, "ucl": 20, "cal": 146, "tl": 261, "cb": 22, "tb": 34, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Core.Orchestration.ConversationHistory", "rp": "Foundz.Net.Core_ConversationHistory.html", "cl": 0, "ucl": 98, "cal": 98, "tl": 201, "cb": 0, "tb": 32, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Core.Orchestration.ConversationSummary", "rp": "Foundz.Net.Core_ConversationSummary.html", "cl": 0, "ucl": 7, "cal": 7, "tl": 201, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Core.Orchestration.ConversationHistory", "rp": "Foundz.Net.Core_ConversationHistory.html", "cl": 90, "ucl": 8, "cal": 98, "tl": 201, "cb": 27, "tb": 32, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Core.Orchestration.ConversationSummary", "rp": "Foundz.Net.Core_ConversationSummary.html", "cl": 7, "ucl": 0, "cal": 7, "tl": 201, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Core.Orchestration.ToolCallParser", "rp": "Foundz.Net.Core_ToolCallParser.html", "cl": 141, "ucl": 20, "cal": 161, "tl": 258, "cb": 44, "tb": 56, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Core.Orchestration.ToolResultFormatter", "rp": "Foundz.Net.Core_ToolResultFormatter.html", "cl": 0, "ucl": 154, "cal": 154, "tl": 252, "cb": 0, "tb": 44, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Core.Orchestration.ToolResultFormatter", "rp": "Foundz.Net.Core_ToolResultFormatter.html", "cl": 153, "ucl": 1, "cal": 154, "tl": 252, "cb": 42, "tb": 44, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Core.Planning.PlanningContext", "rp": "Foundz.Net.Core_PlanningContext.html", "cl": 4, "ucl": 0, "cal": 4, "tl": 420, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Core.Planning.PlanProgress", "rp": "Foundz.Net.Core_PlanProgress.html", "cl": 9, "ucl": 0, "cal": 9, "tl": 420, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Core.Planning.ProgressEventArgs", "rp": "Foundz.Net.Core_ProgressEventArgs.html", "cl": 12, "ucl": 0, "cal": 12, "tl": 281, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -273,7 +263,7 @@ var assemblies = [
       { "name": "Foundz.Net.Core.Planning.TaskStep", "rp": "Foundz.Net.Core_TaskStep.html", "cl": 6, "ucl": 1, "cal": 7, "tl": 420, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Core.Session.SessionManager", "rp": "Foundz.Net.Core_SessionManager.html", "cl": 118, "ucl": 5, "cal": 123, "tl": 226, "cb": 21, "tb": 22, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Core.ToolRegistry.ToolConfirmation", "rp": "Foundz.Net.Core_ToolConfirmation.html", "cl": 0, "ucl": 5, "cal": 5, "tl": 178, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Core.ToolRegistry.ToolConfirmationManager", "rp": "Foundz.Net.Core_ToolConfirmationManager.html", "cl": 0, "ucl": 78, "cal": 78, "tl": 178, "cb": 0, "tb": 16, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Core.ToolRegistry.ToolConfirmationManager", "rp": "Foundz.Net.Core_ToolConfirmationManager.html", "cl": 10, "ucl": 68, "cal": 78, "tl": 178, "cb": 0, "tb": 16, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Core.ToolRegistry.ToolConfirmationPrompt", "rp": "Foundz.Net.Core_ToolConfirmationPrompt.html", "cl": 0, "ucl": 7, "cal": 7, "tl": 178, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Core.ToolRegistry.ToolExecutor", "rp": "Foundz.Net.Core_ToolExecutor.html", "cl": 85, "ucl": 55, "cal": 140, "tl": 228, "cb": 21, "tb": 44, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Core.ToolRegistry.ToolRegistry", "rp": "Foundz.Net.Core_ToolRegistry.html", "cl": 70, "ucl": 47, "cal": 117, "tl": 210, "cb": 15, "tb": 32, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -288,33 +278,16 @@ var assemblies = [
       { "name": "Foundz.Net.Data.Entities.ToolExecutionEntity", "rp": "Foundz.Net.Data_ToolExecutionEntity.html", "cl": 0, "ucl": 9, "cal": 9, "tl": 35, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
     ]},
   {
-    "name": "Foundz.Net.Infrastructure",
-    "classes": [
-      { "name": "Foundz.Net.Infrastructure.Configuration.AgentConfiguration", "rp": "Foundz.Net.Infrastructure_AgentConfiguration.html", "cl": 0, "ucl": 6, "cal": 6, "tl": 389, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Infrastructure.Configuration.AuthenticationConfiguration", "rp": "Foundz.Net.Infrastructure_AuthenticationConfiguration.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 389, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Infrastructure.Configuration.AzureConfiguration", "rp": "Foundz.Net.Infrastructure_AzureConfiguration.html", "cl": 0, "ucl": 6, "cal": 6, "tl": 389, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Infrastructure.Configuration.ConfirmationConfiguration", "rp": "Foundz.Net.Infrastructure_ConfirmationConfiguration.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 389, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Infrastructure.Configuration.FoundzConfiguration", "rp": "Foundz.Net.Infrastructure_FoundzConfiguration.html", "cl": 0, "ucl": 9, "cal": 9, "tl": 389, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Infrastructure.Configuration.LoggingConfiguration", "rp": "Foundz.Net.Infrastructure_LoggingConfiguration.html", "cl": 0, "ucl": 5, "cal": 5, "tl": 389, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Infrastructure.Configuration.ModelConfiguration", "rp": "Foundz.Net.Infrastructure_ModelConfiguration.html", "cl": 0, "ucl": 6, "cal": 6, "tl": 389, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Infrastructure.Configuration.SecurityConfiguration", "rp": "Foundz.Net.Infrastructure_SecurityConfiguration.html", "cl": 0, "ucl": 3, "cal": 3, "tl": 389, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Infrastructure.Configuration.ShellConfiguration", "rp": "Foundz.Net.Infrastructure_ShellConfiguration.html", "cl": 0, "ucl": 3, "cal": 3, "tl": 389, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Infrastructure.Configuration.StorageConfiguration", "rp": "Foundz.Net.Infrastructure_StorageConfiguration.html", "cl": 0, "ucl": 3, "cal": 3, "tl": 389, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Infrastructure.Configuration.TelemetryConfiguration", "rp": "Foundz.Net.Infrastructure_TelemetryConfiguration.html", "cl": 0, "ucl": 3, "cal": 3, "tl": 389, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Infrastructure.Configuration.ToolConfiguration", "rp": "Foundz.Net.Infrastructure_ToolConfiguration.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 389, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Infrastructure.Configuration.UIConfiguration", "rp": "Foundz.Net.Infrastructure_UIConfiguration.html", "cl": 0, "ucl": 5, "cal": 5, "tl": 389, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-    ]},
-  {
     "name": "Foundz.Net.Shared",
     "classes": [
       { "name": "Foundz.Net.Shared.Interfaces.AgentEvent", "rp": "Foundz.Net.Shared_AgentEvent.html", "cl": 0, "ucl": 5, "cal": 5, "tl": 76, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Shared.Interfaces.AgentResponse", "rp": "Foundz.Net.Shared_AgentResponse.html", "cl": 0, "ucl": 5, "cal": 5, "tl": 76, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Shared.Interfaces.AIResponse", "rp": "Foundz.Net.Shared_AIResponse.html", "cl": 4, "ucl": 1, "cal": 5, "tl": 83, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Shared.Interfaces.AIResponseChunk", "rp": "Foundz.Net.Shared_AIResponseChunk.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 83, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Shared.Interfaces.AIResponse", "rp": "Foundz.Net.Shared_AIResponse.html", "cl": 5, "ucl": 0, "cal": 5, "tl": 83, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Shared.Interfaces.AIResponseChunk", "rp": "Foundz.Net.Shared_AIResponseChunk.html", "cl": 3, "ucl": 1, "cal": 4, "tl": 83, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Shared.Interfaces.TokenUsage", "rp": "Foundz.Net.Shared_TokenUsage.html", "cl": 2, "ucl": 1, "cal": 3, "tl": 83, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Shared.Interfaces.ToolDefinition", "rp": "Foundz.Net.Shared_ToolDefinition.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 83, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Shared.Models.Message", "rp": "Foundz.Net.Shared_Message.html", "cl": 10, "ucl": 0, "cal": 10, "tl": 31, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Shared.Models.ModelCapabilities", "rp": "Foundz.Net.Shared_ModelCapabilities.html", "cl": 0, "ucl": 13, "cal": 13, "tl": 21, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Shared.Models.ModelCapabilities", "rp": "Foundz.Net.Shared_ModelCapabilities.html", "cl": 13, "ucl": 0, "cal": 13, "tl": 21, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Shared.Models.Session", "rp": "Foundz.Net.Shared_Session.html", "cl": 9, "ucl": 0, "cal": 9, "tl": 27, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Shared.Models.ToolCall", "rp": "Foundz.Net.Shared_ToolCall.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 25, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Shared.Models.ToolResult", "rp": "Foundz.Net.Shared_ToolResult.html", "cl": 7, "ucl": 0, "cal": 7, "tl": 25, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -329,7 +302,7 @@ var assemblies = [
       { "name": "Foundz.Net.Tools.CodeAnalysis.LintCodeTool", "rp": "Foundz.Net.Tools_LintCodeTool.html", "cl": 14, "ucl": 132, "cal": 146, "tl": 192, "cb": 6, "tb": 30, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Tools.CodeAnalysis.ParseCodeTool", "rp": "Foundz.Net.Tools_ParseCodeTool.html", "cl": 28, "ucl": 184, "cal": 212, "tl": 286, "cb": 0, "tb": 68, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Tools.Documentation.ExplainCodeTool", "rp": "Foundz.Net.Tools_ExplainCodeTool.html", "cl": 15, "ucl": 163, "cal": 178, "tl": 230, "cb": 6, "tb": 64, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Documentation.GenerateDocsTool", "rp": "Foundz.Net.Tools_GenerateDocsTool.html", "cl": 16, "ucl": 184, "cal": 200, "tl": 261, "cb": 6, "tb": 50, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Documentation.GenerateDocsTool", "rp": "Foundz.Net.Tools_GenerateDocsTool.html", "cl": 15, "ucl": 185, "cal": 200, "tl": 261, "cb": 6, "tb": 50, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Tools.File.CopyFileTool", "rp": "Foundz.Net.Tools_CopyFileTool.html", "cl": 31, "ucl": 88, "cal": 119, "tl": 155, "cb": 8, "tb": 36, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Tools.File.CreateDirectoryTool", "rp": "Foundz.Net.Tools_CreateDirectoryTool.html", "cl": 21, "ucl": 64, "cal": 85, "tl": 116, "cb": 3, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Tools.File.DeleteFileTool", "rp": "Foundz.Net.Tools_DeleteFileTool.html", "cl": 54, "ucl": 41, "cal": 95, "tl": 129, "cb": 8, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -340,16 +313,16 @@ var assemblies = [
       { "name": "Foundz.Net.Tools.File.RenameFileTool", "rp": "Foundz.Net.Tools_RenameFileTool.html", "cl": 28, "ucl": 65, "cal": 93, "tl": 126, "cb": 6, "tb": 24, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Tools.File.SearchFilesTool", "rp": "Foundz.Net.Tools_SearchFilesTool.html", "cl": 35, "ucl": 73, "cal": 108, "tl": 147, "cb": 11, "tb": 18, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Tools.File.WriteFileTool", "rp": "Foundz.Net.Tools_WriteFileTool.html", "cl": 41, "ucl": 39, "cal": 80, "tl": 113, "cb": 17, "tb": 20, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Git.GitAddTool", "rp": "Foundz.Net.Tools_GitAddTool.html", "cl": 33, "ucl": 51, "cal": 84, "tl": 118, "cb": 6, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Git.GitAddTool", "rp": "Foundz.Net.Tools_GitAddTool.html", "cl": 29, "ucl": 55, "cal": 84, "tl": 118, "cb": 6, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Tools.Git.GitBranchTool", "rp": "Foundz.Net.Tools_GitBranchTool.html", "cl": 33, "ucl": 109, "cal": 142, "tl": 192, "cb": 13, "tb": 36, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Git.GitCheckoutTool", "rp": "Foundz.Net.Tools_GitCheckoutTool.html", "cl": 17, "ucl": 99, "cal": 116, "tl": 154, "cb": 0, "tb": 18, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Git.GitCommitTool", "rp": "Foundz.Net.Tools_GitCommitTool.html", "cl": 32, "ucl": 67, "cal": 99, "tl": 137, "cb": 3, "tb": 18, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Git.GitDiffTool", "rp": "Foundz.Net.Tools_GitDiffTool.html", "cl": 48, "ucl": 88, "cal": 136, "tl": 182, "cb": 16, "tb": 47, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Git.GitLogTool", "rp": "Foundz.Net.Tools_GitLogTool.html", "cl": 48, "ucl": 71, "cal": 119, "tl": 161, "cb": 14, "tb": 26, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Git.GitCheckoutTool", "rp": "Foundz.Net.Tools_GitCheckoutTool.html", "cl": 16, "ucl": 100, "cal": 116, "tl": 154, "cb": 0, "tb": 18, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Git.GitCommitTool", "rp": "Foundz.Net.Tools_GitCommitTool.html", "cl": 21, "ucl": 78, "cal": 99, "tl": 137, "cb": 3, "tb": 18, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Git.GitDiffTool", "rp": "Foundz.Net.Tools_GitDiffTool.html", "cl": 47, "ucl": 89, "cal": 136, "tl": 182, "cb": 16, "tb": 47, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Git.GitLogTool", "rp": "Foundz.Net.Tools_GitLogTool.html", "cl": 47, "ucl": 72, "cal": 119, "tl": 161, "cb": 14, "tb": 26, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Tools.Git.GitPullTool", "rp": "Foundz.Net.Tools_GitPullTool.html", "cl": 19, "ucl": 71, "cal": 90, "tl": 121, "cb": 3, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Git.GitPushTool", "rp": "Foundz.Net.Tools_GitPushTool.html", "cl": 22, "ucl": 96, "cal": 118, "tl": 152, "cb": 5, "tb": 26, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Git.GitPushTool", "rp": "Foundz.Net.Tools_GitPushTool.html", "cl": 21, "ucl": 97, "cal": 118, "tl": 152, "cb": 5, "tb": 26, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Tools.Git.GitStashTool", "rp": "Foundz.Net.Tools_GitStashTool.html", "cl": 21, "ucl": 157, "cal": 178, "tl": 235, "cb": 5, "tb": 34, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Git.GitStatusTool", "rp": "Foundz.Net.Tools_GitStatusTool.html", "cl": 66, "ucl": 73, "cal": 139, "tl": 183, "cb": 16, "tb": 42, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Git.GitStatusTool", "rp": "Foundz.Net.Tools_GitStatusTool.html", "cl": 54, "ucl": 85, "cal": 139, "tl": 183, "cb": 16, "tb": 42, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Tools.Refactoring.ExtractInterfaceTool", "rp": "Foundz.Net.Tools_ExtractInterfaceTool.html", "cl": 17, "ucl": 194, "cal": 211, "tl": 281, "cb": 12, "tb": 62, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Tools.Refactoring.ExtractMethodTool", "rp": "Foundz.Net.Tools_ExtractMethodTool.html", "cl": 17, "ucl": 103, "cal": 120, "tl": 155, "cb": 11, "tb": 26, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Tools.Refactoring.InlineVariableTool", "rp": "Foundz.Net.Tools_InlineVariableTool.html", "cl": 16, "ucl": 179, "cal": 195, "tl": 259, "cb": 9, "tb": 38, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -362,7 +335,7 @@ var assemblies = [
       { "name": "Foundz.Net.Tools.Shell.ExecuteCommandTool", "rp": "Foundz.Net.Tools_ExecuteCommandTool.html", "cl": 95, "ucl": 80, "cal": 175, "tl": 230, "cb": 18, "tb": 24, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Tools.Shell.RunTestsTool", "rp": "Foundz.Net.Tools_RunTestsTool.html", "cl": 6, "ucl": 163, "cal": 169, "tl": 234, "cb": 0, "tb": 66, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Tools.Testing.AnalyzeCoverageTool", "rp": "Foundz.Net.Tools_AnalyzeCoverageTool.html", "cl": 15, "ucl": 132, "cal": 147, "tl": 193, "cb": 6, "tb": 66, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Testing.GenerateTestTool", "rp": "Foundz.Net.Tools_GenerateTestTool.html", "cl": 17, "ucl": 152, "cal": 169, "tl": 230, "cb": 9, "tb": 48, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Testing.GenerateTestTool", "rp": "Foundz.Net.Tools_GenerateTestTool.html", "cl": 16, "ucl": 153, "cal": 169, "tl": 230, "cb": 9, "tb": 48, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
     ]},
 ];
 
@@ -401,12 +374,6 @@ var riskHotspots = [
       { "value": 60, "exceeded": true },
     ]},
   {
-    "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.AI.ModelCapabilityDetector", "reportPath": "Foundz.Net.Core_ModelCapabilityDetector.html", "methodName": "SupportsFeature(System.String,System.String)", "methodShortName": "SupportsFeature(...)", "fileIndex": 0, "line": 234,
-    "metrics": [
-      { "value": 3192, "exceeded": true },
-      { "value": 56, "exceeded": true },
-    ]},
-  {
     "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Testing.AnalyzeCoverageTool", "reportPath": "Foundz.Net.Tools_AnalyzeCoverageTool.html", "methodName": "ExecuteAsync()", "methodShortName": "ExecuteAsync()", "fileIndex": 0, "line": 51,
     "metrics": [
       { "value": 3192, "exceeded": true },
@@ -417,12 +384,6 @@ var riskHotspots = [
     "metrics": [
       { "value": 1980, "exceeded": true },
       { "value": 44, "exceeded": true },
-    ]},
-  {
-    "assembly": "Foundz.Net.Cli", "class": "Foundz.Net.Cli.Commands.ChatCommand", "reportPath": "Foundz.Net.Cli_ChatCommand.html", "methodName": "HandleSlashCommandAsync()", "methodShortName": "HandleSlashCommandAsync()", "fileIndex": 0, "line": 159,
-    "metrics": [
-      { "value": 1806, "exceeded": true },
-      { "value": 42, "exceeded": true },
     ]},
   {
     "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.AI.Adapters.MistralAdapter", "reportPath": "Foundz.Net.Core_MistralAdapter.html", "methodName": "ParseResponse(System.Object)", "methodShortName": "ParseResponse(...)", "fileIndex": 0, "line": 107,
@@ -471,12 +432,6 @@ var riskHotspots = [
     "metrics": [
       { "value": 737, "exceeded": true },
       { "value": 34, "exceeded": true },
-    ]},
-  {
-    "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.AI.ModelCapabilityDetector", "reportPath": "Foundz.Net.Core_ModelCapabilityDetector.html", "methodName": "SelectBestModel(System.Collections.Generic.IEnumerable`1<System.String>,Foundz.Net.Core.AI.ModelRequirements)", "methodShortName": "SelectBestModel(...)", "fileIndex": 0, "line": 263,
-    "metrics": [
-      { "value": 702, "exceeded": true },
-      { "value": 26, "exceeded": true },
     ]},
   {
     "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Refactoring.InlineVariableTool", "reportPath": "Foundz.Net.Tools_InlineVariableTool.html", "methodName": "ExecuteAsync()", "methodShortName": "ExecuteAsync()", "fileIndex": 0, "line": 60,
@@ -533,18 +488,6 @@ var riskHotspots = [
       { "value": 36, "exceeded": true },
     ]},
   {
-    "assembly": "Foundz.Net.Cli", "class": "Foundz.Net.Cli.Commands.TaskCommand", "reportPath": "Foundz.Net.Cli_TaskCommand.html", "methodName": "DisplayToolResults(System.Collections.Generic.List`1<Foundz.Net.Shared.Models.ToolResult>)", "methodShortName": "DisplayToolResults(...)", "fileIndex": 0, "line": 230,
-    "metrics": [
-      { "value": 420, "exceeded": true },
-      { "value": 20, "exceeded": true },
-    ]},
-  {
-    "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.AI.ModelCapabilityDetector", "reportPath": "Foundz.Net.Core_ModelCapabilityDetector.html", "methodName": "ValidateModel(System.String,Foundz.Net.Core.AI.ModelRequirements)", "methodShortName": "ValidateModel(...)", "fileIndex": 0, "line": 336,
-    "metrics": [
-      { "value": 420, "exceeded": true },
-      { "value": 20, "exceeded": true },
-    ]},
-  {
     "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.Orchestration.AgentOrchestrator", "reportPath": "Foundz.Net.Core_AgentOrchestrator.html", "methodName": "ProcessMessageAsync()", "methodShortName": "ProcessMessageAsync()", "fileIndex": 0, "line": 61,
     "metrics": [
       { "value": 420, "exceeded": true },
@@ -561,12 +504,6 @@ var riskHotspots = [
     "metrics": [
       { "value": 353, "exceeded": true },
       { "value": 42, "exceeded": true },
-    ]},
-  {
-    "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.AI.ModelCapabilityDetector", "reportPath": "Foundz.Net.Core_ModelCapabilityDetector.html", "methodName": "InferCapabilitiesFromName(System.String)", "methodShortName": "InferCapabilitiesFromName(...)", "fileIndex": 0, "line": 94,
-    "metrics": [
-      { "value": 342, "exceeded": true },
-      { "value": 18, "exceeded": true },
     ]},
   {
     "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.Memory.CodebaseIndexer", "reportPath": "Foundz.Net.Core_CodebaseIndexer.html", "methodName": "CalculateImportanceScores(Foundz.Net.Core.Memory.FileIndex[],System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<System.String>>)", "methodShortName": "CalculateImportanceScores(...)", "fileIndex": 0, "line": 498,
@@ -677,12 +614,6 @@ var riskHotspots = [
       { "value": 34, "exceeded": true },
     ]},
   {
-    "assembly": "Foundz.Net.Cli", "class": "Foundz.Net.Cli.Commands.ChatCommand", "reportPath": "Foundz.Net.Cli_ChatCommand.html", "methodName": "DisplayHistory(Foundz.Net.Shared.Models.Session)", "methodShortName": "DisplayHistory(...)", "fileIndex": 0, "line": 260,
-    "metrics": [
-      { "value": 156, "exceeded": true },
-      { "value": 12, "exceeded": false },
-    ]},
-  {
     "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.Memory.CodebaseIndexer", "reportPath": "Foundz.Net.Core_CodebaseIndexer.html", "methodName": "ExtractGenericSymbols(System.String,System.String)", "methodShortName": "ExtractGenericSymbols(...)", "fileIndex": 0, "line": 355,
     "metrics": [
       { "value": 156, "exceeded": true },
@@ -702,12 +633,6 @@ var riskHotspots = [
     ]},
   {
     "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.Memory.SemanticMemoryService", "reportPath": "Foundz.Net.Core_SemanticMemoryService.html", "methodName": "CleanupOldMemories(System.TimeSpan)", "methodShortName": "CleanupOldMemories(...)", "fileIndex": 0, "line": 367,
-    "metrics": [
-      { "value": 156, "exceeded": true },
-      { "value": 12, "exceeded": false },
-    ]},
-  {
-    "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.Orchestration.ToolResultFormatter", "reportPath": "Foundz.Net.Core_ToolResultFormatter.html", "methodName": "FormatResultContent(Foundz.Net.Shared.Models.ToolResult)", "methodShortName": "FormatResultContent(...)", "fileIndex": 0, "line": 98,
     "metrics": [
       { "value": 156, "exceeded": true },
       { "value": 12, "exceeded": false },
@@ -755,25 +680,7 @@ var riskHotspots = [
       { "value": 18, "exceeded": true },
     ]},
   {
-    "assembly": "Foundz.Net.Cli", "class": "Foundz.Net.Cli.Commands.CostsCommand", "reportPath": "Foundz.Net.Cli_CostsCommand.html", "methodName": "ExecuteForSession(System.String)", "methodShortName": "ExecuteForSession(...)", "fileIndex": 0, "line": 90,
-    "metrics": [
-      { "value": 110, "exceeded": true },
-      { "value": 10, "exceeded": false },
-    ]},
-  {
-    "assembly": "Foundz.Net.Cli", "class": "Foundz.Net.Cli.Commands.StatsCommand", "reportPath": "Foundz.Net.Cli_StatsCommand.html", "methodName": "Execute()", "methodShortName": "Execute()", "fileIndex": 0, "line": 22,
-    "metrics": [
-      { "value": 110, "exceeded": true },
-      { "value": 10, "exceeded": false },
-    ]},
-  {
     "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.AI.Adapters.CohereCmdRAdapter", "reportPath": "Foundz.Net.Core_CohereCmdRAdapter.html", "methodName": "ExtractFinishReason(System.Text.Json.JsonElement)", "methodShortName": "ExtractFinishReason(...)", "fileIndex": 0, "line": 297,
-    "metrics": [
-      { "value": 110, "exceeded": true },
-      { "value": 10, "exceeded": false },
-    ]},
-  {
-    "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.AI.RequestMetricsCollector", "reportPath": "Foundz.Net.Core_RequestMetricsCollector.html", "methodName": "RecordRequest(Foundz.Net.Core.AI.RequestMetric)", "methodShortName": "RecordRequest(...)", "fileIndex": 0, "line": 39,
     "metrics": [
       { "value": 110, "exceeded": true },
       { "value": 10, "exceeded": false },
@@ -792,12 +699,6 @@ var riskHotspots = [
     ]},
   {
     "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.Memory.RelevanceScorer", "reportPath": "Foundz.Net.Core_RelevanceScorer.html", "methodName": "CalculateKeywordScore(Foundz.Net.Core.Memory.FileIndex,System.Collections.Generic.List`1<System.String>)", "methodShortName": "CalculateKeywordScore(...)", "fileIndex": 0, "line": 159,
-    "metrics": [
-      { "value": 110, "exceeded": true },
-      { "value": 10, "exceeded": false },
-    ]},
-  {
-    "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.Orchestration.ToolResultFormatter", "reportPath": "Foundz.Net.Core_ToolResultFormatter.html", "methodName": "FormatForDisplay(Foundz.Net.Shared.Models.ToolResult)", "methodShortName": "FormatForDisplay(...)", "fileIndex": 0, "line": 191,
     "metrics": [
       { "value": 110, "exceeded": true },
       { "value": 10, "exceeded": false },
@@ -833,6 +734,12 @@ var riskHotspots = [
       { "value": 10, "exceeded": false },
     ]},
   {
+    "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.AI.ModelCapabilityDetector", "reportPath": "Foundz.Net.Core_ModelCapabilityDetector.html", "methodName": "SupportsFeature(System.String,System.String)", "methodShortName": "SupportsFeature(...)", "fileIndex": 0, "line": 234,
+    "metrics": [
+      { "value": 105, "exceeded": true },
+      { "value": 56, "exceeded": true },
+    ]},
+  {
     "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.AI.Adapters.CohereCmdRAdapter", "reportPath": "Foundz.Net.Core_CohereCmdRAdapter.html", "methodName": "FormatMessages(System.Collections.Generic.List`1<Foundz.Net.Shared.Models.Message>)", "methodShortName": "FormatMessages(...)", "fileIndex": 0, "line": 28,
     "metrics": [
       { "value": 90, "exceeded": true },
@@ -855,24 +762,6 @@ var riskHotspots = [
     "metrics": [
       { "value": 78, "exceeded": true },
       { "value": 26, "exceeded": true },
-    ]},
-  {
-    "assembly": "Foundz.Net.Cli", "class": "Foundz.Net.Cli.Commands.ChatCommand", "reportPath": "Foundz.Net.Cli_ChatCommand.html", "methodName": "<ProcessUserMessageAsync()", "methodShortName": "<ProcessUserMessageAsync()", "fileIndex": 0, "line": 105,
-    "metrics": [
-      { "value": 72, "exceeded": true },
-      { "value": 8, "exceeded": false },
-    ]},
-  {
-    "assembly": "Foundz.Net.Cli", "class": "Foundz.Net.Cli.Commands.ChatCommand", "reportPath": "Foundz.Net.Cli_ChatCommand.html", "methodName": "ExecuteAsync()", "methodShortName": "ExecuteAsync()", "fileIndex": 0, "line": 39,
-    "metrics": [
-      { "value": 72, "exceeded": true },
-      { "value": 8, "exceeded": false },
-    ]},
-  {
-    "assembly": "Foundz.Net.Cli", "class": "Foundz.Net.Cli.Commands.TaskCommand", "reportPath": "Foundz.Net.Cli_TaskCommand.html", "methodName": "DisplayResponse(Foundz.Net.Shared.Interfaces.AgentResponse,System.Boolean)", "methodShortName": "DisplayResponse(...)", "fileIndex": 0, "line": 196,
-    "metrics": [
-      { "value": 72, "exceeded": true },
-      { "value": 8, "exceeded": false },
     ]},
   {
     "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.AI.Adapters.OpenAIAdapter", "reportPath": "Foundz.Net.Core_OpenAIAdapter.html", "methodName": "GetCapabilities(System.String)", "methodShortName": "GetCapabilities(...)", "fileIndex": 0, "line": 14,
@@ -935,18 +824,6 @@ var riskHotspots = [
       { "value": 8, "exceeded": false },
     ]},
   {
-    "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.Orchestration.ConversationHistory", "reportPath": "Foundz.Net.Core_ConversationHistory.html", "methodName": "GetByTimeRange(System.DateTime,System.DateTime)", "methodShortName": "GetByTimeRange(...)", "fileIndex": 0, "line": 180,
-    "metrics": [
-      { "value": 72, "exceeded": true },
-      { "value": 8, "exceeded": false },
-    ]},
-  {
-    "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.Orchestration.ToolResultFormatter", "reportPath": "Foundz.Net.Core_ToolResultFormatter.html", "methodName": "FormatSummary(System.Collections.Generic.List`1<Foundz.Net.Shared.Models.ToolResult>)", "methodShortName": "FormatSummary(...)", "fileIndex": 0, "line": 167,
-    "metrics": [
-      { "value": 72, "exceeded": true },
-      { "value": 8, "exceeded": false },
-    ]},
-  {
     "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.ToolRegistry.ToolConfirmationManager", "reportPath": "Foundz.Net.Core_ToolConfirmationManager.html", "methodName": "RequestConfirmationAsync()", "methodShortName": "RequestConfirmationAsync()", "fileIndex": 0, "line": 46,
     "metrics": [
       { "value": 72, "exceeded": true },
@@ -1001,48 +878,6 @@ var riskHotspots = [
       { "value": 20, "exceeded": true },
     ]},
   {
-    "assembly": "Foundz.Net.Cli", "class": "Foundz.Net.Cli.Commands.ChatCommand", "reportPath": "Foundz.Net.Cli_ChatCommand.html", "methodName": "LoadOrCreateSession(System.String)", "methodShortName": "LoadOrCreateSession(...)", "fileIndex": 0, "line": 210,
-    "metrics": [
-      { "value": 42, "exceeded": true },
-      { "value": 6, "exceeded": false },
-    ]},
-  {
-    "assembly": "Foundz.Net.Cli", "class": "Foundz.Net.Cli.Commands.CostsCommand", "reportPath": "Foundz.Net.Cli_CostsCommand.html", "methodName": "Execute()", "methodShortName": "Execute()", "fileIndex": 0, "line": 22,
-    "metrics": [
-      { "value": 42, "exceeded": true },
-      { "value": 6, "exceeded": false },
-    ]},
-  {
-    "assembly": "Foundz.Net.Cli", "class": "Foundz.Net.Cli.Commands.ModelsCommand", "reportPath": "Foundz.Net.Cli_ModelsCommand.html", "methodName": "ExecuteForModel(System.String)", "methodShortName": "ExecuteForModel(...)", "fileIndex": 0, "line": 71,
-    "metrics": [
-      { "value": 42, "exceeded": true },
-      { "value": 6, "exceeded": false },
-    ]},
-  {
-    "assembly": "Foundz.Net.Cli", "class": "Foundz.Net.Cli.Commands.TaskCommand", "reportPath": "Foundz.Net.Cli_TaskCommand.html", "methodName": "LoadOrCreateSession(System.String,System.String)", "methodShortName": "LoadOrCreateSession(...)", "fileIndex": 0, "line": 178,
-    "metrics": [
-      { "value": 42, "exceeded": true },
-      { "value": 6, "exceeded": false },
-    ]},
-  {
-    "assembly": "Foundz.Net.Cli", "class": "Foundz.Net.Cli.Commands.TaskCommand", "reportPath": "Foundz.Net.Cli_TaskCommand.html", "methodName": "DisplayBatchSummary(System.Collections.Generic.List`1<System.ValueTuple`3<System.String,System.Boolean,System.String>>)", "methodShortName": "DisplayBatchSummary(...)", "fileIndex": 0, "line": 269,
-    "metrics": [
-      { "value": 42, "exceeded": true },
-      { "value": 6, "exceeded": false },
-    ]},
-  {
-    "assembly": "Foundz.Net.Cli", "class": "Foundz.Net.Cli.Commands.TaskCommand", "reportPath": "Foundz.Net.Cli_TaskCommand.html", "methodName": "ExecuteAsync()", "methodShortName": "ExecuteAsync()", "fileIndex": 0, "line": 37,
-    "metrics": [
-      { "value": 42, "exceeded": true },
-      { "value": 6, "exceeded": false },
-    ]},
-  {
-    "assembly": "Foundz.Net.Cli", "class": "Foundz.Net.Cli.Commands.TaskCommand", "reportPath": "Foundz.Net.Cli_TaskCommand.html", "methodName": "ExecuteBatchAsync()", "methodShortName": "ExecuteBatchAsync()", "fileIndex": 0, "line": 126,
-    "metrics": [
-      { "value": 42, "exceeded": true },
-      { "value": 6, "exceeded": false },
-    ]},
-  {
     "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.AI.Adapters.AnthropicAdapter", "reportPath": "Foundz.Net.Core_AnthropicAdapter.html", "methodName": "FormatToolResult(Foundz.Net.Shared.Models.ToolResult)", "methodShortName": "FormatToolResult(...)", "fileIndex": 0, "line": 60,
     "metrics": [
       { "value": 42, "exceeded": true },
@@ -1056,12 +891,6 @@ var riskHotspots = [
     ]},
   {
     "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.AI.Adapters.OpenAIAdapter", "reportPath": "Foundz.Net.Core_OpenAIAdapter.html", "methodName": "FormatToolResult(Foundz.Net.Shared.Models.ToolResult)", "methodShortName": "FormatToolResult(...)", "fileIndex": 0, "line": 73,
-    "metrics": [
-      { "value": 42, "exceeded": true },
-      { "value": 6, "exceeded": false },
-    ]},
-  {
-    "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.AI.ModelCapabilityDetector", "reportPath": "Foundz.Net.Core_ModelCapabilityDetector.html", "methodName": ".ctor(Microsoft.Extensions.Logging.ILogger`1<Foundz.Net.Core.AI.ModelCapabilityDetector>,System.Collections.Generic.IEnumerable`1<Foundz.Net.Shared.Interfaces.IProviderAdapter>)", "methodShortName": ".ctor(...)", "fileIndex": 0, "line": 17,
     "metrics": [
       { "value": 42, "exceeded": true },
       { "value": 6, "exceeded": false },
@@ -1092,18 +921,6 @@ var riskHotspots = [
     ]},
   {
     "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.Memory.RelevanceScorer", "reportPath": "Foundz.Net.Core_RelevanceScorer.html", "methodName": "FindRelatedFiles(System.String,Foundz.Net.Core.Memory.CodebaseIndex,System.Int32)", "methodShortName": "FindRelatedFiles(...)", "fileIndex": 0, "line": 74,
-    "metrics": [
-      { "value": 42, "exceeded": true },
-      { "value": 6, "exceeded": false },
-    ]},
-  {
-    "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.Orchestration.ConversationHistory", "reportPath": "Foundz.Net.Core_ConversationHistory.html", "methodName": "Search(System.String,System.Boolean)", "methodShortName": "Search(...)", "fileIndex": 0, "line": 77,
-    "metrics": [
-      { "value": 42, "exceeded": true },
-      { "value": 6, "exceeded": false },
-    ]},
-  {
-    "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.Orchestration.ToolResultFormatter", "reportPath": "Foundz.Net.Core_ToolResultFormatter.html", "methodName": "HighlightErrors(System.Collections.Generic.List`1<Foundz.Net.Shared.Models.ToolResult>)", "methodShortName": "HighlightErrors(...)", "fileIndex": 0, "line": 230,
     "metrics": [
       { "value": 42, "exceeded": true },
       { "value": 6, "exceeded": false },
@@ -1163,6 +980,18 @@ var riskHotspots = [
       { "value": 12, "exceeded": false },
     ]},
   {
+    "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.AI.ModelCapabilityDetector", "reportPath": "Foundz.Net.Core_ModelCapabilityDetector.html", "methodName": "SelectBestModel(System.Collections.Generic.IEnumerable`1<System.String>,Foundz.Net.Core.AI.ModelRequirements)", "methodShortName": "SelectBestModel(...)", "fileIndex": 0, "line": 263,
+    "metrics": [
+      { "value": 26, "exceeded": false },
+      { "value": 26, "exceeded": true },
+    ]},
+  {
+    "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.AI.ModelCapabilityDetector", "reportPath": "Foundz.Net.Core_ModelCapabilityDetector.html", "methodName": "ValidateModel(System.String,Foundz.Net.Core.AI.ModelRequirements)", "methodShortName": "ValidateModel(...)", "fileIndex": 0, "line": 336,
+    "metrics": [
+      { "value": 20, "exceeded": false },
+      { "value": 20, "exceeded": true },
+    ]},
+  {
     "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.Planning.TaskPlanner", "reportPath": "Foundz.Net.Core_TaskPlanner.html", "methodName": "AnalyzeComplexity(System.String)", "methodShortName": "AnalyzeComplexity(...)", "fileIndex": 0, "line": 278,
     "metrics": [
       { "value": 20, "exceeded": false },
@@ -1173,6 +1002,12 @@ var riskHotspots = [
     "metrics": [
       { "value": 23, "exceeded": false },
       { "value": 20, "exceeded": true },
+    ]},
+  {
+    "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.AI.ModelCapabilityDetector", "reportPath": "Foundz.Net.Core_ModelCapabilityDetector.html", "methodName": "InferCapabilitiesFromName(System.String)", "methodShortName": "InferCapabilitiesFromName(...)", "fileIndex": 0, "line": 94,
+    "metrics": [
+      { "value": 18, "exceeded": false },
+      { "value": 18, "exceeded": true },
     ]},
   {
     "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.Planning.TaskPlanner", "reportPath": "Foundz.Net.Core_TaskPlanner.html", "methodName": "UpdatePlan(Foundz.Net.Core.Planning.TaskPlan,Foundz.Net.Core.Planning.TaskStep,System.Boolean)", "methodShortName": "UpdatePlan(...)", "fileIndex": 0, "line": 68,

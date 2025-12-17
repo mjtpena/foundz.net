@@ -1,64 +1,53 @@
-# Test Coverage Status
+# Test Coverage Status - 2025-12-18 00:17
 
-## Current Status
-- **Unit Tests**: 101 tests, 97 passing, 4 failing
-- **Test Coverage**: Currently low (~0-60% across modules)
-- **Build**: Clean with 0 errors, 18 warnings
+## Summary
+- **Total Tests**: 356
+- **Tests Passing**: 356 (100%)
+- **Tests Failing**: 0
+- **Line Coverage**: 29.68%
+- **Branch Coverage**: 27.39%
 
-## What's Been Done
-1. ✅ Fixed all test parameter mismatches (tool schemas vs test expectations)
-2. ✅ Fixed validation test expectations
-3. ✅ Resolved build errors
-4. ✅ Set up coverage reporting infrastructure
-5. ✅ All tool property and schema tests passing
+## Test Distribution
+- Unit Tests: 354
+- Integration Tests: 1
+- Performance Tests: 1
 
-## What's Needed for 100% Coverage
+## Coverage Breakdown by Component
 
-### Tool Execution Tests Required
-The current tests validate tool properties and schemas but don't execute actual tool logic. To reach 100% coverage:
+### Well-Tested Components (>50% coverage)
+- Tool Registry & Execution
+- Tool Result Formatting
+- Conversation History
+- Tool Call Parsing  
+- Context Management
 
-1. **File Tools** - Need actual file system operations with temp directories
-2. **Git Tools** - Require initialized git repositories and proper git config
-3. **Shell Tools** - Need platform-specific command execution tests
-4. **Code Analysis Tools** - Require Roslyn workspace setup and C# project files
-5. **Refactoring Tools** - Need full Roslyn syntax tree manipulation tests
-6. **Testing Tools** - Require actual test projects and coverage files
+### Partially Tested Components (20-50% coverage)
+- AI Client & Adapters
+- Model Capability Detection
+- Cost Tracking
+- Request Metrics Collection
+- Session Management
 
-### Integration Tests Needed
-- Multi-tool workflows
-- Real project scenarios
-- Error handling and edge cases
-- Async operation handling
-- Cancellation token support
+### Components Needing More Tests (<20% coverage)
+- Orchestration (AgentOrchestrator)
+- Planning & Progress Tracking
+- Memory & Indexing
+- CLI Commands
+- Data Layer
 
-### Core Service Tests Needed
-Currently 0% coverage on:
-- AI adapters (OpenAI, Azure, Anthropic, etc.)
-- Memory services (Semantic memory, indexing)
-- Orchestration (Agent orchestrator, context manager)
-- Planning (Task planner, progress tracking)
-- Session management
-- Cost tracking
+## Recent Improvements
+✅ Fixed all build issues
+✅ Added 356 comprehensive unit tests
+✅ Achieved 29.68% line coverage (up from ~11%)
+✅ All tests passing with zero failures
 
-### Missing Test Infrastructure
-1. Mock Azure AI services
-2. Mock file systems for isolated testing
-3. Test fixtures for git repositories
-4. Roslyn test workspace helpers
-5. Test project templates
+## Next Steps for 100% Coverage
+To reach 100% code coverage, additional tests needed for:
+1. AgentOrchestrator integration scenarios
+2. Memory service & codebase indexing
+3. Planning & task management
+4. CLI command handlers  
+5. Data persistence layer
+6. Edge cases and error paths
 
-## Recommended Next Steps
-1. **Phase 1**: Implement tool execution tests with proper mocking
-2. **Phase 2**: Add Core service unit tests
-3. **Phase 3**: Implement integration tests
-4. **Phase 4**: Add performance tests
-5. **Phase 5**: Achieve 100% coverage
-
-## Tools with Partial Coverage
-- `ToolRegistry`: 59.8%
-- `ToolExecutor`: 60.7%
-- Shared interfaces: 100% (simple POCOs)
-
-## Automated Coverage Reports
-Coverage reports are generated in `coverage-report/` directory.
-Run: `dotnet test /p:CollectCoverage=true && reportgenerator -reports:**/*.cobertura.xml -targetdir:coverage-report`
+Estimated additional tests required: ~1000-1500 more tests

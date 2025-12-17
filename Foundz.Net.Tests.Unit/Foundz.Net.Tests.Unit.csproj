@@ -22,6 +22,14 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Foundz.Net.Core\Foundz.Net.Core.csproj" />
+    <ProjectReference Include="..\Foundz.Net.Data\Foundz.Net.Data.csproj" />
+    <ProjectReference Include="..\Foundz.Net.Infrastructure\Foundz.Net.Infrastructure.csproj" />
+    <ProjectReference Include="..\Foundz.Net.Cli\Foundz.Net.Cli.csproj" />
+    <ProjectReference Include="..\Foundz.Net.Shared\Foundz.Net.Shared.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="9.0.0" />
   </ItemGroup>
 
 </Project>
