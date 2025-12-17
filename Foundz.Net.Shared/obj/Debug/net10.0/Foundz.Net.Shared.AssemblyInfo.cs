@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Foundz.Net.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3dcd1321fefccd9a1a755c9beaaf51ae76929f59")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c4965facf2fb7b68a3335fcfb71e5dec10b39ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("Foundz.Net.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Foundz.Net.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,22 +1,22 @@
 Summary
-  Generated on: 17/12/2025 - 10:44:40 PM
-  Coverage date: 17/12/2025 - 8:43:32 PM - 17/12/2025 - 10:44:38 PM
-  Parser: MultiReport (21x Cobertura)
+  Generated on: 17/12/2025 - 11:58:52 PM
+  Coverage date: 17/12/2025 - 8:43:32 PM - 17/12/2025 - 11:58:40 PM
+  Parser: MultiReport (24x Cobertura)
   Assemblies: 6
   Classes: 130
   Files: 84
-  Line coverage: 11.1%
-  Covered lines: 1323
-  Uncovered lines: 10493
+  Line coverage: 18.2%
+  Covered lines: 2158
+  Uncovered lines: 9658
   Coverable lines: 11816
   Total lines: 17775
-  Branch coverage: 13.2% (415 of 3125)
-  Covered branches: 415
+  Branch coverage: 18.9% (592 of 3125)
+  Covered branches: 592
   Total branches: 3125
-  Method coverage: 17.5% (191 of 1090)
-  Full method coverage: 13.5% (148 of 1090)
-  Covered methods: 191
-  Fully covered methods: 148
+  Method coverage: 29.1% (318 of 1090)
+  Full method coverage: 24.4% (266 of 1090)
+  Covered methods: 318
+  Fully covered methods: 266
   Total methods: 1090
 
 Foundz.Net.Cli                                                             0%
@@ -27,7 +27,7 @@ Foundz.Net.Cli                                                             0%
   Foundz.Net.Cli.Commands.TaskCommand                                      0%
   Foundz.Net.Cli.Program                                                   0%
 
-Foundz.Net.Core                                                          3.3%
+Foundz.Net.Core                                                           21%
   Foundz.Net.Core.AI.Adapters.AnthropicAdapter                             0%
   Foundz.Net.Core.AI.Adapters.CohereCmdRAdapter                            0%
   Foundz.Net.Core.AI.Adapters.MetaLlamaAdapter                             0%
@@ -63,20 +63,20 @@ Foundz.Net.Core                                                          3.3%
   Foundz.Net.Core.Memory.SemanticMemoryService                             0%
   Foundz.Net.Core.Memory.SymbolInfo                                        0%
   Foundz.Net.Core.Orchestration.AgentOrchestrator                          0%
-  Foundz.Net.Core.Orchestration.ContextManager                             0%
+  Foundz.Net.Core.Orchestration.ContextManager                          86.3%
   Foundz.Net.Core.Orchestration.ConversationHistory                        0%
   Foundz.Net.Core.Orchestration.ConversationSummary                        0%
-  Foundz.Net.Core.Orchestration.ToolCallParser                             0%
+  Foundz.Net.Core.Orchestration.ToolCallParser                          87.5%
   Foundz.Net.Core.Orchestration.ToolResultFormatter                        0%
-  Foundz.Net.Core.Planning.PlanningContext                                 0%
-  Foundz.Net.Core.Planning.PlanProgress                                    0%
-  Foundz.Net.Core.Planning.ProgressEventArgs                               0%
-  Foundz.Net.Core.Planning.ProgressState                                   0%
-  Foundz.Net.Core.Planning.ProgressTracker                                 0%
-  Foundz.Net.Core.Planning.TaskPlan                                        0%
-  Foundz.Net.Core.Planning.TaskPlanner                                     0%
-  Foundz.Net.Core.Planning.TaskStep                                        0%
-  Foundz.Net.Core.Session.SessionManager                                   0%
+  Foundz.Net.Core.Planning.PlanningContext                               100%
+  Foundz.Net.Core.Planning.PlanProgress                                  100%
+  Foundz.Net.Core.Planning.ProgressEventArgs                             100%
+  Foundz.Net.Core.Planning.ProgressState                                 100%
+  Foundz.Net.Core.Planning.ProgressTracker                              97.9%
+  Foundz.Net.Core.Planning.TaskPlan                                      100%
+  Foundz.Net.Core.Planning.TaskPlanner                                  99.5%
+  Foundz.Net.Core.Planning.TaskStep                                     85.7%
+  Foundz.Net.Core.Session.SessionManager                                95.9%
   Foundz.Net.Core.ToolRegistry.ToolConfirmation                            0%
   Foundz.Net.Core.ToolRegistry.ToolConfirmationManager                     0%
   Foundz.Net.Core.ToolRegistry.ToolConfirmationPrompt                      0%
@@ -105,16 +105,16 @@ Foundz.Net.Infrastructure                                                  0%
   Foundz.Net.Infrastructure.Configuration.ToolConfiguration                0%
   Foundz.Net.Infrastructure.Configuration.UIConfiguration                  0%
 
-Foundz.Net.Shared                                                       19.4%
+Foundz.Net.Shared                                                       56.7%
   Foundz.Net.Shared.Interfaces.AgentEvent                                  0%
   Foundz.Net.Shared.Interfaces.AgentResponse                               0%
-  Foundz.Net.Shared.Interfaces.AIResponse                                  0%
+  Foundz.Net.Shared.Interfaces.AIResponse                                 80%
   Foundz.Net.Shared.Interfaces.AIResponseChunk                             0%
-  Foundz.Net.Shared.Interfaces.TokenUsage                                  0%
+  Foundz.Net.Shared.Interfaces.TokenUsage                               66.6%
   Foundz.Net.Shared.Interfaces.ToolDefinition                            100%
-  Foundz.Net.Shared.Models.Message                                         0%
+  Foundz.Net.Shared.Models.Message                                       100%
   Foundz.Net.Shared.Models.ModelCapabilities                               0%
-  Foundz.Net.Shared.Models.Session                                         0%
+  Foundz.Net.Shared.Models.Session                                       100%
   Foundz.Net.Shared.Models.ToolCall                                      100%
   Foundz.Net.Shared.Models.ToolResult                                    100%
 
