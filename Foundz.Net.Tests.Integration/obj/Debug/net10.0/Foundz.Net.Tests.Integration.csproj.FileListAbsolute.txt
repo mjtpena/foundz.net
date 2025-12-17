@@ -420,7 +420,6 @@ C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Integration\bin\Debug\net10.0\F
 C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Integration\bin\Debug\net10.0\Foundz.Net.Tests.Integration.runtimeconfig.json
 C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Integration\bin\Debug\net10.0\Foundz.Net.Tests.Integration.dll
 C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Integration\bin\Debug\net10.0\Foundz.Net.Tests.Integration.pdb
-C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Integration\bin\Debug\net10.0\Azure.AI.Inference.dll
 C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Integration\bin\Debug\net10.0\Azure.AI.OpenAI.dll
 C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Integration\bin\Debug\net10.0\Azure.Core.dll
 C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Integration\bin\Debug\net10.0\FluentValidation.dll
@@ -712,3 +711,15 @@ C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Integration\obj\Debug\net10.0\r
 C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Integration\obj\Debug\net10.0\Foundz.Net.Tests.Integration.pdb
 C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Integration\obj\Debug\net10.0\Foundz.Net.Tests.Integration.genruntimeconfig.cache
 C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Integration\obj\Debug\net10.0\ref\Foundz.Net.Tests.Integration.dll
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Integration\bin\Debug\net10.0\Azure.AI.Agents.Persistent.dll
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Integration\bin\Debug\net10.0\Azure.AI.Projects.dll
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Integration\bin\Debug\net10.0\Azure.Identity.dll
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Integration\bin\Debug\net10.0\Azure.Storage.Blobs.dll
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Integration\bin\Debug\net10.0\Azure.Storage.Common.dll
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Integration\bin\Debug\net10.0\Microsoft.Agents.AI.Abstractions.dll
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Integration\bin\Debug\net10.0\Microsoft.Identity.Client.dll
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Integration\bin\Debug\net10.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Integration\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Integration\bin\Debug\net10.0\Microsoft.SemanticKernel.Agents.Abstractions.dll
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Integration\bin\Debug\net10.0\Microsoft.SemanticKernel.Agents.Core.dll
+C:\Users\mjtpena\dev\foundz.net\Foundz.Net.Tests.Integration\bin\Debug\net10.0\System.IO.Hashing.dll

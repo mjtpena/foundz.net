@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Foundz.Net.Tests.Integration")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa7a14179a20e463f2c6aa4c2cbb5ce8e7c28f2a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+560f05c01f7130b0859693575a3aeb61fb9f02fe")]
 [assembly: System.Reflection.AssemblyProductAttribute("Foundz.Net.Tests.Integration")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Foundz.Net.Tests.Integration")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
