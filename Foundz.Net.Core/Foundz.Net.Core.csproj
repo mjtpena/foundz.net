@@ -7,7 +7,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Azure.AI.Inference" Version="1.0.0-beta.5" />
+    <!-- Microsoft Foundry SDK (Official) -->
+    <PackageReference Include="Azure.AI.Projects" Version="1.1.0" />
+    
+    <!-- Microsoft Agent Framework (Official) -->
+    <PackageReference Include="Microsoft.Agents.Core" Version="1.3.175" />
+    
+    <!-- Supporting packages -->
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.1" />
     <PackageReference Include="Microsoft.SemanticKernel" Version="1.68.0" />
     <PackageReference Include="Polly" Version="8.6.5" />
