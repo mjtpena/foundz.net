@@ -389,8 +389,9 @@ public class FileToolsTests : IDisposable
         var args = new Dictionary<string, object>
         {
             ["path"] = testFile,
-            ["oldText"] = "Line 2",
-            ["newText"] = "Modified Line 2"
+            ["start_line"] = 2,
+            ["end_line"] = 2,
+            ["new_content"] = "Modified Line 2"
         };
 
         // Act
@@ -415,7 +416,7 @@ public class FileToolsTests : IDisposable
         var tool = new SearchFilesTool();
         var args = new Dictionary<string, object> 
         { 
-            ["directory"] = _testDirectory,
+            ["path"] = _testDirectory,
             ["pattern"] = "*.txt"
         };
 

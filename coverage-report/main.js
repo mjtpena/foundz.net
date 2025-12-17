@@ -275,8 +275,8 @@ var assemblies = [
       { "name": "Foundz.Net.Core.ToolRegistry.ToolConfirmation", "rp": "Foundz.Net.Core_ToolConfirmation.html", "cl": 0, "ucl": 5, "cal": 5, "tl": 178, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Core.ToolRegistry.ToolConfirmationManager", "rp": "Foundz.Net.Core_ToolConfirmationManager.html", "cl": 0, "ucl": 78, "cal": 78, "tl": 178, "cb": 0, "tb": 16, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Core.ToolRegistry.ToolConfirmationPrompt", "rp": "Foundz.Net.Core_ToolConfirmationPrompt.html", "cl": 0, "ucl": 7, "cal": 7, "tl": 178, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Core.ToolRegistry.ToolExecutor", "rp": "Foundz.Net.Core_ToolExecutor.html", "cl": 0, "ucl": 140, "cal": 140, "tl": 228, "cb": 0, "tb": 44, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Core.ToolRegistry.ToolRegistry", "rp": "Foundz.Net.Core_ToolRegistry.html", "cl": 0, "ucl": 117, "cal": 117, "tl": 210, "cb": 0, "tb": 32, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Core.ToolRegistry.ToolExecutor", "rp": "Foundz.Net.Core_ToolExecutor.html", "cl": 85, "ucl": 55, "cal": 140, "tl": 228, "cb": 21, "tb": 44, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Core.ToolRegistry.ToolRegistry", "rp": "Foundz.Net.Core_ToolRegistry.html", "cl": 70, "ucl": 47, "cal": 117, "tl": 210, "cb": 15, "tb": 32, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Core.ToolRegistry.ToolSchemaGenerator", "rp": "Foundz.Net.Core_ToolSchemaGenerator.html", "cl": 0, "ucl": 160, "cal": 160, "tl": 248, "cb": 0, "tb": 48, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
     ]},
   {
@@ -312,12 +312,12 @@ var assemblies = [
       { "name": "Foundz.Net.Shared.Interfaces.AIResponse", "rp": "Foundz.Net.Shared_AIResponse.html", "cl": 0, "ucl": 5, "cal": 5, "tl": 83, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Shared.Interfaces.AIResponseChunk", "rp": "Foundz.Net.Shared_AIResponseChunk.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 83, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Shared.Interfaces.TokenUsage", "rp": "Foundz.Net.Shared_TokenUsage.html", "cl": 0, "ucl": 3, "cal": 3, "tl": 83, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Shared.Interfaces.ToolDefinition", "rp": "Foundz.Net.Shared_ToolDefinition.html", "cl": 0, "ucl": 3, "cal": 3, "tl": 83, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Shared.Interfaces.ToolDefinition", "rp": "Foundz.Net.Shared_ToolDefinition.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 83, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Shared.Models.Message", "rp": "Foundz.Net.Shared_Message.html", "cl": 0, "ucl": 10, "cal": 10, "tl": 31, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Shared.Models.ModelCapabilities", "rp": "Foundz.Net.Shared_ModelCapabilities.html", "cl": 0, "ucl": 13, "cal": 13, "tl": 21, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Foundz.Net.Shared.Models.Session", "rp": "Foundz.Net.Shared_Session.html", "cl": 0, "ucl": 9, "cal": 9, "tl": 27, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Shared.Models.ToolCall", "rp": "Foundz.Net.Shared_ToolCall.html", "cl": 0, "ucl": 3, "cal": 3, "tl": 25, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Shared.Models.ToolResult", "rp": "Foundz.Net.Shared_ToolResult.html", "cl": 0, "ucl": 7, "cal": 7, "tl": 25, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Shared.Models.ToolCall", "rp": "Foundz.Net.Shared_ToolCall.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 25, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Shared.Models.ToolResult", "rp": "Foundz.Net.Shared_ToolResult.html", "cl": 7, "ucl": 0, "cal": 7, "tl": 25, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
     ]},
   {
     "name": "Foundz.Net.Tools",
@@ -576,12 +576,6 @@ var riskHotspots = [
     ]},
   {
     "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.Planning.TaskPlanner", "reportPath": "Foundz.Net.Core_TaskPlanner.html", "methodName": "AnalyzeComplexity(System.String)", "methodShortName": "AnalyzeComplexity(...)", "fileIndex": 0, "line": 278,
-    "metrics": [
-      { "value": 420, "exceeded": true },
-      { "value": 20, "exceeded": true },
-    ]},
-  {
-    "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.ToolRegistry.ToolExecutor", "reportPath": "Foundz.Net.Core_ToolExecutor.html", "methodName": "CanExecuteInParallel(System.Collections.Generic.List`1<Foundz.Net.Shared.Models.ToolCall>)", "methodShortName": "CanExecuteInParallel(...)", "fileIndex": 0, "line": 180,
     "metrics": [
       { "value": 420, "exceeded": true },
       { "value": 20, "exceeded": true },
@@ -1313,24 +1307,6 @@ var riskHotspots = [
       { "value": 6, "exceeded": false },
     ]},
   {
-    "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.ToolRegistry.ToolExecutor", "reportPath": "Foundz.Net.Core_ToolExecutor.html", "methodName": "ExecuteAsync()", "methodShortName": "ExecuteAsync()", "fileIndex": 0, "line": 33,
-    "metrics": [
-      { "value": 42, "exceeded": true },
-      { "value": 6, "exceeded": false },
-    ]},
-  {
-    "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.ToolRegistry.ToolRegistry", "reportPath": "Foundz.Net.Core_ToolRegistry.html", "methodName": "RegisterTool(Foundz.Net.Shared.Interfaces.ITool)", "methodShortName": "RegisterTool(...)", "fileIndex": 0, "line": 25,
-    "metrics": [
-      { "value": 42, "exceeded": true },
-      { "value": 6, "exceeded": false },
-    ]},
-  {
-    "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.ToolRegistry.ToolRegistry", "reportPath": "Foundz.Net.Core_ToolRegistry.html", "methodName": "ValidateToolAsync()", "methodShortName": "ValidateToolAsync()", "fileIndex": 0, "line": 119,
-    "metrics": [
-      { "value": 42, "exceeded": true },
-      { "value": 6, "exceeded": false },
-    ]},
-  {
     "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.ToolRegistry.ToolSchemaGenerator", "reportPath": "Foundz.Net.Core_ToolSchemaGenerator.html", "methodName": "GenerateDocumentation(Foundz.Net.Shared.Interfaces.ToolDefinition)", "methodShortName": "GenerateDocumentation(...)", "fileIndex": 0, "line": 113,
     "metrics": [
       { "value": 42, "exceeded": true },
@@ -1407,6 +1383,12 @@ var riskHotspots = [
     "metrics": [
       { "value": 42, "exceeded": true },
       { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.ToolRegistry.ToolExecutor", "reportPath": "Foundz.Net.Core_ToolExecutor.html", "methodName": "CanExecuteInParallel(System.Collections.Generic.List`1<Foundz.Net.Shared.Models.ToolCall>)", "methodShortName": "CanExecuteInParallel(...)", "fileIndex": 0, "line": 180,
+    "metrics": [
+      { "value": 23, "exceeded": false },
+      { "value": 20, "exceeded": true },
     ]},
 ];
 

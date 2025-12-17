@@ -35,7 +35,7 @@ public class CodeAnalysisToolsTests : IDisposable
     public async Task ParseCodeTool_ShouldValidateArgs()
     {
         var tool = new ParseCodeTool();
-        (await tool.ValidateArgsAsync(new Dictionary<string, object> { ["code"] = "test" })).Should().BeTrue();
+        (await tool.ValidateArgsAsync(new Dictionary<string, object> { ["file_path"] = "test.cs" })).Should().BeTrue();
         (await tool.ValidateArgsAsync(new Dictionary<string, object>())).Should().BeFalse();
     }
 
@@ -65,7 +65,7 @@ public class CodeAnalysisToolsTests : IDisposable
     public async Task LintCodeTool_ShouldValidateArgs()
     {
         var tool = new LintCodeTool();
-        (await tool.ValidateArgsAsync(new Dictionary<string, object> { ["path"] = "test.cs" })).Should().BeTrue();
+        (await tool.ValidateArgsAsync(new Dictionary<string, object> { ["projectPath"] = "test.csproj" })).Should().BeTrue();
         (await tool.ValidateArgsAsync(new Dictionary<string, object>())).Should().BeFalse();
     }
 
@@ -83,7 +83,7 @@ public class CodeAnalysisToolsTests : IDisposable
         var tool = new GetDefinitionTool();
         (await tool.ValidateArgsAsync(new Dictionary<string, object> 
         { 
-            ["symbol"] = "Test",
+            ["symbolName"] = "Test",
             ["projectPath"] = "test.csproj"
         })).Should().BeTrue();
         (await tool.ValidateArgsAsync(new Dictionary<string, object>())).Should().BeFalse();
@@ -103,7 +103,7 @@ public class CodeAnalysisToolsTests : IDisposable
         var tool = new FindReferencesTool();
         (await tool.ValidateArgsAsync(new Dictionary<string, object> 
         { 
-            ["symbol"] = "Test",
+            ["symbolName"] = "Test",
             ["projectPath"] = "test.csproj"
         })).Should().BeTrue();
         (await tool.ValidateArgsAsync(new Dictionary<string, object>())).Should().BeFalse();
@@ -121,7 +121,7 @@ public class CodeAnalysisToolsTests : IDisposable
     public async Task DetectDuplicationTool_ShouldValidateArgs()
     {
         var tool = new DetectDuplicationTool();
-        (await tool.ValidateArgsAsync(new Dictionary<string, object> { ["path"] = "." })).Should().BeTrue();
+        (await tool.ValidateArgsAsync(new Dictionary<string, object> { ["directoryPath"] = "." })).Should().BeTrue();
         (await tool.ValidateArgsAsync(new Dictionary<string, object>())).Should().BeFalse();
     }
 
@@ -137,7 +137,7 @@ public class CodeAnalysisToolsTests : IDisposable
     public async Task AnalyzeComplexityTool_ShouldValidateArgs()
     {
         var tool = new AnalyzeComplexityTool();
-        (await tool.ValidateArgsAsync(new Dictionary<string, object> { ["path"] = "test.cs" })).Should().BeTrue();
+        (await tool.ValidateArgsAsync(new Dictionary<string, object> { ["file_path"] = "test.cs" })).Should().BeTrue();
         (await tool.ValidateArgsAsync(new Dictionary<string, object>())).Should().BeFalse();
     }
 

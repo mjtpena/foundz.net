@@ -34,7 +34,7 @@ public class ShellToolsTests
         var args = new Dictionary<string, object>
         {
             ["command"] = OperatingSystem.IsWindows() ? "cd" : "pwd",
-            ["workingDirectory"] = tempDir
+            ["working_directory"] = tempDir
         };
 
         // Act
@@ -61,9 +61,9 @@ public class ShellToolsTests
         // Arrange
         var tool = new BuildProjectTool();
 
-        // Act & Assert
-        (await tool.ValidateArgsAsync(new Dictionary<string, object> { ["projectPath"] = "test.csproj" })).Should().BeTrue();
-        (await tool.ValidateArgsAsync(new Dictionary<string, object>())).Should().BeFalse();
+        // Act & Assert - BuildProjectTool has no required args, always valid
+        (await tool.ValidateArgsAsync(new Dictionary<string, object> { ["path"] = "test.csproj" })).Should().BeTrue();
+        (await tool.ValidateArgsAsync(new Dictionary<string, object>())).Should().BeTrue();
     }
 
     [Fact]
@@ -84,9 +84,9 @@ public class ShellToolsTests
         // Arrange
         var tool = new RunTestsTool();
 
-        // Act & Assert
-        (await tool.ValidateArgsAsync(new Dictionary<string, object> { ["projectPath"] = "test.csproj" })).Should().BeTrue();
-        (await tool.ValidateArgsAsync(new Dictionary<string, object>())).Should().BeFalse();
+        // Act & Assert - RunTestsTool has no required args, always valid
+        (await tool.ValidateArgsAsync(new Dictionary<string, object> { ["path"] = "test.csproj" })).Should().BeTrue();
+        (await tool.ValidateArgsAsync(new Dictionary<string, object>())).Should().BeTrue();
     }
 
     [Fact]

@@ -69,7 +69,7 @@ public class RefactoringToolsTests
         { 
             ["className"] = "MyClass",
             ["interfaceName"] = "IMyClass",
-            ["projectPath"] = "test.csproj"
+            ["filePath"] = "test.cs"
         })).Should().BeTrue();
         (await tool.ValidateArgsAsync(new Dictionary<string, object>())).Should().BeFalse();
     }
@@ -111,8 +111,8 @@ public class RefactoringToolsTests
         (await tool.ValidateArgsAsync(new Dictionary<string, object> 
         { 
             ["className"] = "MyClass",
-            ["sourceFile"] = "old.cs",
-            ["targetFile"] = "new.cs"
+            ["sourceFilePath"] = "old.cs",
+            ["targetFilePath"] = "new.cs"
         })).Should().BeTrue();
         (await tool.ValidateArgsAsync(new Dictionary<string, object>())).Should().BeFalse();
     }
