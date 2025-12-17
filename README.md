@@ -1,21 +1,30 @@
 # Foundz.Net
 
-> An intelligent AI-powered CLI agent built with Azure AI Foundry, featuring multi-provider support, 42+ tools, and production-ready architecture.
+> Enterprise AI agent platform built on **Microsoft Foundry** and **Azure AI Agent Service**, featuring autonomous agents, 42+ tools, and production-ready architecture.
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/yourusername/foundz.net)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![.NET](https://img.shields.io/badge/.NET-10.0-purple)](https://dotnet.microsoft.com/)
+[![Microsoft Foundry](https://img.shields.io/badge/Microsoft-Foundry-blue)](https://learn.microsoft.com/azure/ai-foundry/)
+[![Azure AI Agents](https://img.shields.io/badge/Azure-AI%20Agents-orange)](https://learn.microsoft.com/azure/ai-services/agents/)
 
-## 🚀 Features
+## 🚀 Built on Microsoft Foundry Platform
+
+### Microsoft Platform Integration
+- **Microsoft Foundry** (`Azure.AI.Projects`) - Unified AI project management and deployment platform
+- **Azure AI Agent Service** (`Azure.AI.Agents.Persistent`) - Production-grade persistent agents with built-in memory
+- **Semantic Kernel Agents** (`Microsoft.SemanticKernel.Agents`) - Multi-agent orchestration and collaboration
+- **Enterprise Features** - Monitoring, governance, evaluation, and resource management
 
 ### Core Capabilities
-- **Interactive Chat** - Full conversational AI experience with session management
-- **Task Execution** - One-shot and batch task processing
-- **Multi-Provider AI** - Support for Claude, GPT-4, Mistral, Cohere, and Llama models
-- **42+ Tools** - File operations, Git, code analysis, shell execution, and more
-- **Cost Tracking** - Real-time cost monitoring with detailed breakdowns
-- **Performance Metrics** - Comprehensive statistics and latency tracking
-- **Session Management** - Persistent conversation history
+- **Autonomous Agents** - Persistent agents with reasoning, tool use, and memory
+- **Multi-Agent Orchestration** - Coordinate multiple specialized agents for complex tasks
+- **Interactive Chat** - Full conversational AI with thread-based conversations
+- **Task Execution** - One-shot and batch task processing with automatic decomposition
+- **42+ Production Tools** - File operations, Git, code analysis, shell execution, and more
+- **Cost Tracking** - Real-time cost monitoring across all operations
+- **Performance Metrics** - Enterprise-grade observability (P50/P95/P99 latency)
+- **Thread Management** - Persistent conversation threads with full history
 
 ### AI Providers
 - ✅ **Anthropic** (Claude 3.5 Sonnet, Opus, Haiku)
