@@ -1,22 +1,22 @@
 Summary
-  Generated on: 17/12/2025 - 10:37:59 PM
-  Coverage date: 17/12/2025 - 8:43:32 PM - 17/12/2025 - 9:07:02 PM
-  Parser: MultiReport (7x Cobertura)
+  Generated on: 17/12/2025 - 10:44:40 PM
+  Coverage date: 17/12/2025 - 8:43:32 PM - 17/12/2025 - 10:44:38 PM
+  Parser: MultiReport (21x Cobertura)
   Assemblies: 6
   Classes: 130
   Files: 84
-  Line coverage: 1.4%
-  Covered lines: 168
-  Uncovered lines: 11648
+  Line coverage: 11.1%
+  Covered lines: 1323
+  Uncovered lines: 10493
   Coverable lines: 11816
   Total lines: 17775
-  Branch coverage: 1.1% (36 of 3125)
-  Covered branches: 36
+  Branch coverage: 13.2% (415 of 3125)
+  Covered branches: 415
   Total branches: 3125
-  Method coverage: 2.4% (27 of 1090)
-  Full method coverage: 1.7% (19 of 1090)
-  Covered methods: 27
-  Fully covered methods: 19
+  Method coverage: 17.5% (191 of 1090)
+  Full method coverage: 13.5% (148 of 1090)
+  Covered methods: 191
+  Fully covered methods: 148
   Total methods: 1090
 
 Foundz.Net.Cli                                                             0%
@@ -118,45 +118,45 @@ Foundz.Net.Shared                                                       19.4%
   Foundz.Net.Shared.Models.ToolCall                                      100%
   Foundz.Net.Shared.Models.ToolResult                                    100%
 
-Foundz.Net.Tools                                                           0%
-  Foundz.Net.Tools.CodeAnalysis.AnalyzeComplexityTool                      0%
-  Foundz.Net.Tools.CodeAnalysis.DetectDuplicationTool                      0%
-  Foundz.Net.Tools.CodeAnalysis.FindReferencesTool                         0%
-  Foundz.Net.Tools.CodeAnalysis.GetDefinitionTool                          0%
-  Foundz.Net.Tools.CodeAnalysis.LintCodeTool                               0%
-  Foundz.Net.Tools.CodeAnalysis.ParseCodeTool                              0%
-  Foundz.Net.Tools.Documentation.ExplainCodeTool                           0%
-  Foundz.Net.Tools.Documentation.GenerateDocsTool                          0%
-  Foundz.Net.Tools.File.CopyFileTool                                       0%
-  Foundz.Net.Tools.File.CreateDirectoryTool                                0%
-  Foundz.Net.Tools.File.DeleteFileTool                                     0%
-  Foundz.Net.Tools.File.EditFileTool                                       0%
-  Foundz.Net.Tools.File.GetFileInfoTool                                    0%
-  Foundz.Net.Tools.File.ListDirectoryTool                                  0%
-  Foundz.Net.Tools.File.ReadFileTool                                       0%
-  Foundz.Net.Tools.File.RenameFileTool                                     0%
-  Foundz.Net.Tools.File.SearchFilesTool                                    0%
-  Foundz.Net.Tools.File.WriteFileTool                                      0%
-  Foundz.Net.Tools.Git.GitAddTool                                          0%
-  Foundz.Net.Tools.Git.GitBranchTool                                       0%
-  Foundz.Net.Tools.Git.GitCheckoutTool                                     0%
-  Foundz.Net.Tools.Git.GitCommitTool                                       0%
-  Foundz.Net.Tools.Git.GitDiffTool                                         0%
-  Foundz.Net.Tools.Git.GitLogTool                                          0%
-  Foundz.Net.Tools.Git.GitPullTool                                         0%
-  Foundz.Net.Tools.Git.GitPushTool                                         0%
-  Foundz.Net.Tools.Git.GitStashTool                                        0%
-  Foundz.Net.Tools.Git.GitStatusTool                                       0%
-  Foundz.Net.Tools.Refactoring.ExtractInterfaceTool                        0%
-  Foundz.Net.Tools.Refactoring.ExtractMethodTool                           0%
-  Foundz.Net.Tools.Refactoring.InlineVariableTool                          0%
-  Foundz.Net.Tools.Refactoring.MoveClassTool                               0%
-  Foundz.Net.Tools.Refactoring.RenameSymbolTool                            0%
-  Foundz.Net.Tools.Search.SearchCodebaseTool                               0%
-  Foundz.Net.Tools.Search.SearchDependenciesTool                           0%
-  Foundz.Net.Tools.Search.SearchDocumentationTool                          0%
-  Foundz.Net.Tools.Shell.BuildProjectTool                                  0%
-  Foundz.Net.Tools.Shell.ExecuteCommandTool                                0%
-  Foundz.Net.Tools.Shell.RunTestsTool                                      0%
-  Foundz.Net.Tools.Testing.AnalyzeCoverageTool                             0%
-  Foundz.Net.Tools.Testing.GenerateTestTool                                0%
+Foundz.Net.Tools                                                        19.2%
+  Foundz.Net.Tools.CodeAnalysis.AnalyzeComplexityTool                    8.5%
+  Foundz.Net.Tools.CodeAnalysis.DetectDuplicationTool                    7.1%
+  Foundz.Net.Tools.CodeAnalysis.FindReferencesTool                      10.7%
+  Foundz.Net.Tools.CodeAnalysis.GetDefinitionTool                         10%
+  Foundz.Net.Tools.CodeAnalysis.LintCodeTool                             9.5%
+  Foundz.Net.Tools.CodeAnalysis.ParseCodeTool                           13.2%
+  Foundz.Net.Tools.Documentation.ExplainCodeTool                         8.4%
+  Foundz.Net.Tools.Documentation.GenerateDocsTool                          8%
+  Foundz.Net.Tools.File.CopyFileTool                                      26%
+  Foundz.Net.Tools.File.CreateDirectoryTool                             24.7%
+  Foundz.Net.Tools.File.DeleteFileTool                                  56.8%
+  Foundz.Net.Tools.File.EditFileTool                                    26.8%
+  Foundz.Net.Tools.File.GetFileInfoTool                                 44.4%
+  Foundz.Net.Tools.File.ListDirectoryTool                               45.8%
+  Foundz.Net.Tools.File.ReadFileTool                                    54.5%
+  Foundz.Net.Tools.File.RenameFileTool                                  30.1%
+  Foundz.Net.Tools.File.SearchFilesTool                                 32.4%
+  Foundz.Net.Tools.File.WriteFileTool                                   51.2%
+  Foundz.Net.Tools.Git.GitAddTool                                       39.2%
+  Foundz.Net.Tools.Git.GitBranchTool                                    23.2%
+  Foundz.Net.Tools.Git.GitCheckoutTool                                  14.6%
+  Foundz.Net.Tools.Git.GitCommitTool                                    32.3%
+  Foundz.Net.Tools.Git.GitDiffTool                                      35.2%
+  Foundz.Net.Tools.Git.GitLogTool                                       40.3%
+  Foundz.Net.Tools.Git.GitPullTool                                      21.1%
+  Foundz.Net.Tools.Git.GitPushTool                                      18.6%
+  Foundz.Net.Tools.Git.GitStashTool                                     11.7%
+  Foundz.Net.Tools.Git.GitStatusTool                                    47.4%
+  Foundz.Net.Tools.Refactoring.ExtractInterfaceTool                        8%
+  Foundz.Net.Tools.Refactoring.ExtractMethodTool                        14.1%
+  Foundz.Net.Tools.Refactoring.InlineVariableTool                        8.2%
+  Foundz.Net.Tools.Refactoring.MoveClassTool                             7.5%
+  Foundz.Net.Tools.Refactoring.RenameSymbolTool                          9.3%
+  Foundz.Net.Tools.Search.SearchCodebaseTool                             8.9%
+  Foundz.Net.Tools.Search.SearchDependenciesTool                         6.5%
+  Foundz.Net.Tools.Search.SearchDocumentationTool                        9.2%
+  Foundz.Net.Tools.Shell.BuildProjectTool                                  3%
+  Foundz.Net.Tools.Shell.ExecuteCommandTool                             54.2%
+  Foundz.Net.Tools.Shell.RunTestsTool                                    3.5%
+  Foundz.Net.Tools.Testing.AnalyzeCoverageTool                          10.2%
+  Foundz.Net.Tools.Testing.GenerateTestTool                               10%

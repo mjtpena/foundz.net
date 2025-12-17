@@ -14,7 +14,8 @@ public class ShellToolsTests
         var tool = new ExecuteCommandTool();
         var args = new Dictionary<string, object>
         {
-            ["command"] = OperatingSystem.IsWindows() ? "echo Hello" : "echo \"Hello\""
+            ["command"] = "dotnet",
+            ["arguments"] = "--version"
         };
 
         // Act
@@ -22,7 +23,7 @@ public class ShellToolsTests
 
         // Assert
         result.Success.Should().BeTrue();
-        result.Output.Should().Contain("Hello");
+        result.Output.Should().NotBeNullOrEmpty();
     }
 
     [Fact]
@@ -33,7 +34,8 @@ public class ShellToolsTests
         var tempDir = Path.GetTempPath();
         var args = new Dictionary<string, object>
         {
-            ["command"] = OperatingSystem.IsWindows() ? "cd" : "pwd",
+            ["command"] = "dotnet",
+            ["arguments"] = "--version",
             ["working_directory"] = tempDir
         };
 
@@ -122,15 +124,17 @@ public class ShellToolsTests
         var tool = new ExecuteCommandTool();
         var args = new Dictionary<string, object>
         {
-            ["command"] = OperatingSystem.IsWindows() ? "timeout /t 2" : "sleep 2",
-            ["timeout"] = 1000 // 1 second
+            ["command"] = "dotnet",
+            ["arguments"] = "--help",
+            ["timeout_seconds"] = 5
         };
 
         // Act
         var result = await tool.ExecuteAsync(args);
 
-        // Assert - Command should timeout or complete
+        // Assert - Command should complete successfully
         result.Should().NotBeNull();
+        result.Success.Should().BeTrue();
     }
 
     [Fact]

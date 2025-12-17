@@ -322,47 +322,47 @@ var assemblies = [
   {
     "name": "Foundz.Net.Tools",
     "classes": [
-      { "name": "Foundz.Net.Tools.CodeAnalysis.AnalyzeComplexityTool", "rp": "Foundz.Net.Tools_AnalyzeComplexityTool.html", "cl": 0, "ucl": 140, "cal": 140, "tl": 215, "cb": 0, "tb": 26, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.CodeAnalysis.DetectDuplicationTool", "rp": "Foundz.Net.Tools_DetectDuplicationTool.html", "cl": 0, "ucl": 196, "cal": 196, "tl": 261, "cb": 0, "tb": 56, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.CodeAnalysis.FindReferencesTool", "rp": "Foundz.Net.Tools_FindReferencesTool.html", "cl": 0, "ucl": 139, "cal": 139, "tl": 187, "cb": 0, "tb": 34, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.CodeAnalysis.GetDefinitionTool", "rp": "Foundz.Net.Tools_GetDefinitionTool.html", "cl": 0, "ucl": 150, "cal": 150, "tl": 195, "cb": 0, "tb": 36, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.CodeAnalysis.LintCodeTool", "rp": "Foundz.Net.Tools_LintCodeTool.html", "cl": 0, "ucl": 146, "cal": 146, "tl": 192, "cb": 0, "tb": 30, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.CodeAnalysis.ParseCodeTool", "rp": "Foundz.Net.Tools_ParseCodeTool.html", "cl": 0, "ucl": 212, "cal": 212, "tl": 286, "cb": 0, "tb": 68, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Documentation.ExplainCodeTool", "rp": "Foundz.Net.Tools_ExplainCodeTool.html", "cl": 0, "ucl": 178, "cal": 178, "tl": 230, "cb": 0, "tb": 64, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Documentation.GenerateDocsTool", "rp": "Foundz.Net.Tools_GenerateDocsTool.html", "cl": 0, "ucl": 200, "cal": 200, "tl": 261, "cb": 0, "tb": 50, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.File.CopyFileTool", "rp": "Foundz.Net.Tools_CopyFileTool.html", "cl": 0, "ucl": 119, "cal": 119, "tl": 155, "cb": 0, "tb": 36, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.File.CreateDirectoryTool", "rp": "Foundz.Net.Tools_CreateDirectoryTool.html", "cl": 0, "ucl": 85, "cal": 85, "tl": 116, "cb": 0, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.File.DeleteFileTool", "rp": "Foundz.Net.Tools_DeleteFileTool.html", "cl": 0, "ucl": 95, "cal": 95, "tl": 129, "cb": 0, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.File.EditFileTool", "rp": "Foundz.Net.Tools_EditFileTool.html", "cl": 0, "ucl": 108, "cal": 108, "tl": 155, "cb": 0, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.File.GetFileInfoTool", "rp": "Foundz.Net.Tools_GetFileInfoTool.html", "cl": 0, "ucl": 153, "cal": 153, "tl": 195, "cb": 0, "tb": 194, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.File.ListDirectoryTool", "rp": "Foundz.Net.Tools_ListDirectoryTool.html", "cl": 0, "ucl": 109, "cal": 109, "tl": 145, "cb": 0, "tb": 22, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.File.ReadFileTool", "rp": "Foundz.Net.Tools_ReadFileTool.html", "cl": 0, "ucl": 110, "cal": 110, "tl": 148, "cb": 0, "tb": 22, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.File.RenameFileTool", "rp": "Foundz.Net.Tools_RenameFileTool.html", "cl": 0, "ucl": 93, "cal": 93, "tl": 126, "cb": 0, "tb": 24, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.File.SearchFilesTool", "rp": "Foundz.Net.Tools_SearchFilesTool.html", "cl": 0, "ucl": 108, "cal": 108, "tl": 147, "cb": 0, "tb": 18, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.File.WriteFileTool", "rp": "Foundz.Net.Tools_WriteFileTool.html", "cl": 0, "ucl": 80, "cal": 80, "tl": 113, "cb": 0, "tb": 20, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Git.GitAddTool", "rp": "Foundz.Net.Tools_GitAddTool.html", "cl": 0, "ucl": 84, "cal": 84, "tl": 118, "cb": 0, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Git.GitBranchTool", "rp": "Foundz.Net.Tools_GitBranchTool.html", "cl": 0, "ucl": 142, "cal": 142, "tl": 192, "cb": 0, "tb": 36, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Git.GitCheckoutTool", "rp": "Foundz.Net.Tools_GitCheckoutTool.html", "cl": 0, "ucl": 116, "cal": 116, "tl": 154, "cb": 0, "tb": 18, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Git.GitCommitTool", "rp": "Foundz.Net.Tools_GitCommitTool.html", "cl": 0, "ucl": 99, "cal": 99, "tl": 137, "cb": 0, "tb": 18, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Git.GitDiffTool", "rp": "Foundz.Net.Tools_GitDiffTool.html", "cl": 0, "ucl": 136, "cal": 136, "tl": 182, "cb": 0, "tb": 47, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Git.GitLogTool", "rp": "Foundz.Net.Tools_GitLogTool.html", "cl": 0, "ucl": 119, "cal": 119, "tl": 161, "cb": 0, "tb": 26, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Git.GitPullTool", "rp": "Foundz.Net.Tools_GitPullTool.html", "cl": 0, "ucl": 90, "cal": 90, "tl": 121, "cb": 0, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Git.GitPushTool", "rp": "Foundz.Net.Tools_GitPushTool.html", "cl": 0, "ucl": 118, "cal": 118, "tl": 152, "cb": 0, "tb": 26, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Git.GitStashTool", "rp": "Foundz.Net.Tools_GitStashTool.html", "cl": 0, "ucl": 178, "cal": 178, "tl": 235, "cb": 0, "tb": 34, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Git.GitStatusTool", "rp": "Foundz.Net.Tools_GitStatusTool.html", "cl": 0, "ucl": 139, "cal": 139, "tl": 183, "cb": 0, "tb": 42, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Refactoring.ExtractInterfaceTool", "rp": "Foundz.Net.Tools_ExtractInterfaceTool.html", "cl": 0, "ucl": 211, "cal": 211, "tl": 281, "cb": 0, "tb": 62, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Refactoring.ExtractMethodTool", "rp": "Foundz.Net.Tools_ExtractMethodTool.html", "cl": 0, "ucl": 120, "cal": 120, "tl": 155, "cb": 0, "tb": 26, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Refactoring.InlineVariableTool", "rp": "Foundz.Net.Tools_InlineVariableTool.html", "cl": 0, "ucl": 195, "cal": 195, "tl": 259, "cb": 0, "tb": 38, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Refactoring.MoveClassTool", "rp": "Foundz.Net.Tools_MoveClassTool.html", "cl": 0, "ucl": 238, "cal": 238, "tl": 323, "cb": 0, "tb": 64, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Refactoring.RenameSymbolTool", "rp": "Foundz.Net.Tools_RenameSymbolTool.html", "cl": 0, "ucl": 193, "cal": 193, "tl": 254, "cb": 0, "tb": 48, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Search.SearchCodebaseTool", "rp": "Foundz.Net.Tools_SearchCodebaseTool.html", "cl": 0, "ucl": 178, "cal": 178, "tl": 226, "cb": 0, "tb": 50, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Search.SearchDependenciesTool", "rp": "Foundz.Net.Tools_SearchDependenciesTool.html", "cl": 0, "ucl": 213, "cal": 213, "tl": 282, "cb": 0, "tb": 50, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Search.SearchDocumentationTool", "rp": "Foundz.Net.Tools_SearchDocumentationTool.html", "cl": 0, "ucl": 163, "cal": 163, "tl": 224, "cb": 0, "tb": 38, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Shell.BuildProjectTool", "rp": "Foundz.Net.Tools_BuildProjectTool.html", "cl": 0, "ucl": 195, "cal": 195, "tl": 265, "cb": 0, "tb": 76, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Shell.ExecuteCommandTool", "rp": "Foundz.Net.Tools_ExecuteCommandTool.html", "cl": 0, "ucl": 175, "cal": 175, "tl": 230, "cb": 0, "tb": 24, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Shell.RunTestsTool", "rp": "Foundz.Net.Tools_RunTestsTool.html", "cl": 0, "ucl": 169, "cal": 169, "tl": 234, "cb": 0, "tb": 66, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Testing.AnalyzeCoverageTool", "rp": "Foundz.Net.Tools_AnalyzeCoverageTool.html", "cl": 0, "ucl": 147, "cal": 147, "tl": 193, "cb": 0, "tb": 66, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Foundz.Net.Tools.Testing.GenerateTestTool", "rp": "Foundz.Net.Tools_GenerateTestTool.html", "cl": 0, "ucl": 169, "cal": 169, "tl": 230, "cb": 0, "tb": 48, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.CodeAnalysis.AnalyzeComplexityTool", "rp": "Foundz.Net.Tools_AnalyzeComplexityTool.html", "cl": 12, "ucl": 128, "cal": 140, "tl": 215, "cb": 0, "tb": 26, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.CodeAnalysis.DetectDuplicationTool", "rp": "Foundz.Net.Tools_DetectDuplicationTool.html", "cl": 14, "ucl": 182, "cal": 196, "tl": 261, "cb": 6, "tb": 56, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.CodeAnalysis.FindReferencesTool", "rp": "Foundz.Net.Tools_FindReferencesTool.html", "cl": 15, "ucl": 124, "cal": 139, "tl": 187, "cb": 9, "tb": 34, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.CodeAnalysis.GetDefinitionTool", "rp": "Foundz.Net.Tools_GetDefinitionTool.html", "cl": 15, "ucl": 135, "cal": 150, "tl": 195, "cb": 9, "tb": 36, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.CodeAnalysis.LintCodeTool", "rp": "Foundz.Net.Tools_LintCodeTool.html", "cl": 14, "ucl": 132, "cal": 146, "tl": 192, "cb": 6, "tb": 30, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.CodeAnalysis.ParseCodeTool", "rp": "Foundz.Net.Tools_ParseCodeTool.html", "cl": 28, "ucl": 184, "cal": 212, "tl": 286, "cb": 0, "tb": 68, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Documentation.ExplainCodeTool", "rp": "Foundz.Net.Tools_ExplainCodeTool.html", "cl": 15, "ucl": 163, "cal": 178, "tl": 230, "cb": 6, "tb": 64, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Documentation.GenerateDocsTool", "rp": "Foundz.Net.Tools_GenerateDocsTool.html", "cl": 16, "ucl": 184, "cal": 200, "tl": 261, "cb": 6, "tb": 50, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.File.CopyFileTool", "rp": "Foundz.Net.Tools_CopyFileTool.html", "cl": 31, "ucl": 88, "cal": 119, "tl": 155, "cb": 8, "tb": 36, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.File.CreateDirectoryTool", "rp": "Foundz.Net.Tools_CreateDirectoryTool.html", "cl": 21, "ucl": 64, "cal": 85, "tl": 116, "cb": 3, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.File.DeleteFileTool", "rp": "Foundz.Net.Tools_DeleteFileTool.html", "cl": 54, "ucl": 41, "cal": 95, "tl": 129, "cb": 8, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.File.EditFileTool", "rp": "Foundz.Net.Tools_EditFileTool.html", "cl": 29, "ucl": 79, "cal": 108, "tl": 155, "cb": 4, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.File.GetFileInfoTool", "rp": "Foundz.Net.Tools_GetFileInfoTool.html", "cl": 68, "ucl": 85, "cal": 153, "tl": 195, "cb": 65, "tb": 194, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.File.ListDirectoryTool", "rp": "Foundz.Net.Tools_ListDirectoryTool.html", "cl": 50, "ucl": 59, "cal": 109, "tl": 145, "cb": 13, "tb": 22, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.File.ReadFileTool", "rp": "Foundz.Net.Tools_ReadFileTool.html", "cl": 60, "ucl": 50, "cal": 110, "tl": 148, "cb": 20, "tb": 22, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.File.RenameFileTool", "rp": "Foundz.Net.Tools_RenameFileTool.html", "cl": 28, "ucl": 65, "cal": 93, "tl": 126, "cb": 6, "tb": 24, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.File.SearchFilesTool", "rp": "Foundz.Net.Tools_SearchFilesTool.html", "cl": 35, "ucl": 73, "cal": 108, "tl": 147, "cb": 11, "tb": 18, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.File.WriteFileTool", "rp": "Foundz.Net.Tools_WriteFileTool.html", "cl": 41, "ucl": 39, "cal": 80, "tl": 113, "cb": 17, "tb": 20, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Git.GitAddTool", "rp": "Foundz.Net.Tools_GitAddTool.html", "cl": 33, "ucl": 51, "cal": 84, "tl": 118, "cb": 6, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Git.GitBranchTool", "rp": "Foundz.Net.Tools_GitBranchTool.html", "cl": 33, "ucl": 109, "cal": 142, "tl": 192, "cb": 13, "tb": 36, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Git.GitCheckoutTool", "rp": "Foundz.Net.Tools_GitCheckoutTool.html", "cl": 17, "ucl": 99, "cal": 116, "tl": 154, "cb": 0, "tb": 18, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Git.GitCommitTool", "rp": "Foundz.Net.Tools_GitCommitTool.html", "cl": 32, "ucl": 67, "cal": 99, "tl": 137, "cb": 3, "tb": 18, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Git.GitDiffTool", "rp": "Foundz.Net.Tools_GitDiffTool.html", "cl": 48, "ucl": 88, "cal": 136, "tl": 182, "cb": 16, "tb": 47, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Git.GitLogTool", "rp": "Foundz.Net.Tools_GitLogTool.html", "cl": 48, "ucl": 71, "cal": 119, "tl": 161, "cb": 14, "tb": 26, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Git.GitPullTool", "rp": "Foundz.Net.Tools_GitPullTool.html", "cl": 19, "ucl": 71, "cal": 90, "tl": 121, "cb": 3, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Git.GitPushTool", "rp": "Foundz.Net.Tools_GitPushTool.html", "cl": 22, "ucl": 96, "cal": 118, "tl": 152, "cb": 5, "tb": 26, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Git.GitStashTool", "rp": "Foundz.Net.Tools_GitStashTool.html", "cl": 21, "ucl": 157, "cal": 178, "tl": 235, "cb": 5, "tb": 34, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Git.GitStatusTool", "rp": "Foundz.Net.Tools_GitStatusTool.html", "cl": 66, "ucl": 73, "cal": 139, "tl": 183, "cb": 16, "tb": 42, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Refactoring.ExtractInterfaceTool", "rp": "Foundz.Net.Tools_ExtractInterfaceTool.html", "cl": 17, "ucl": 194, "cal": 211, "tl": 281, "cb": 12, "tb": 62, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Refactoring.ExtractMethodTool", "rp": "Foundz.Net.Tools_ExtractMethodTool.html", "cl": 17, "ucl": 103, "cal": 120, "tl": 155, "cb": 11, "tb": 26, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Refactoring.InlineVariableTool", "rp": "Foundz.Net.Tools_InlineVariableTool.html", "cl": 16, "ucl": 179, "cal": 195, "tl": 259, "cb": 9, "tb": 38, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Refactoring.MoveClassTool", "rp": "Foundz.Net.Tools_MoveClassTool.html", "cl": 18, "ucl": 220, "cal": 238, "tl": 323, "cb": 12, "tb": 64, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Refactoring.RenameSymbolTool", "rp": "Foundz.Net.Tools_RenameSymbolTool.html", "cl": 18, "ucl": 175, "cal": 193, "tl": 254, "cb": 12, "tb": 48, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Search.SearchCodebaseTool", "rp": "Foundz.Net.Tools_SearchCodebaseTool.html", "cl": 16, "ucl": 162, "cal": 178, "tl": 226, "cb": 6, "tb": 50, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Search.SearchDependenciesTool", "rp": "Foundz.Net.Tools_SearchDependenciesTool.html", "cl": 14, "ucl": 199, "cal": 213, "tl": 282, "cb": 0, "tb": 50, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Search.SearchDocumentationTool", "rp": "Foundz.Net.Tools_SearchDocumentationTool.html", "cl": 15, "ucl": 148, "cal": 163, "tl": 224, "cb": 6, "tb": 38, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Shell.BuildProjectTool", "rp": "Foundz.Net.Tools_BuildProjectTool.html", "cl": 6, "ucl": 189, "cal": 195, "tl": 265, "cb": 0, "tb": 76, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Shell.ExecuteCommandTool", "rp": "Foundz.Net.Tools_ExecuteCommandTool.html", "cl": 95, "ucl": 80, "cal": 175, "tl": 230, "cb": 18, "tb": 24, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Shell.RunTestsTool", "rp": "Foundz.Net.Tools_RunTestsTool.html", "cl": 6, "ucl": 163, "cal": 169, "tl": 234, "cb": 0, "tb": 66, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Testing.AnalyzeCoverageTool", "rp": "Foundz.Net.Tools_AnalyzeCoverageTool.html", "cl": 15, "ucl": 132, "cal": 147, "tl": 193, "cb": 6, "tb": 66, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Foundz.Net.Tools.Testing.GenerateTestTool", "rp": "Foundz.Net.Tools_GenerateTestTool.html", "cl": 17, "ucl": 152, "cal": 169, "tl": 230, "cb": 9, "tb": 48, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
     ]},
 ];
 
@@ -379,7 +379,7 @@ var riskHotspots = [
   {
     "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.File.GetFileInfoTool", "reportPath": "Foundz.Net.Tools_GetFileInfoTool.html", "methodName": "DetectLanguage(System.String)", "methodShortName": "DetectLanguage(...)", "fileIndex": 0, "line": 127,
     "metrics": [
-      { "value": 31862, "exceeded": true },
+      { "value": 17072, "exceeded": true },
       { "value": 178, "exceeded": true },
     ]},
   {
@@ -391,7 +391,7 @@ var riskHotspots = [
   {
     "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.CodeAnalysis.ParseCodeTool", "reportPath": "Foundz.Net.Tools_ParseCodeTool.html", "methodName": "ExecuteAsync()", "methodShortName": "ExecuteAsync()", "fileIndex": 0, "line": 49,
     "metrics": [
-      { "value": 5256, "exceeded": true },
+      { "value": 3836, "exceeded": true },
       { "value": 72, "exceeded": true },
     ]},
   {
@@ -425,12 +425,6 @@ var riskHotspots = [
       { "value": 42, "exceeded": true },
     ]},
   {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Git.GitDiffTool", "reportPath": "Foundz.Net.Tools_GitDiffTool.html", "methodName": "ExecuteAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ExecuteAsync(...)", "fileIndex": 0, "line": 46,
-    "metrics": [
-      { "value": 1806, "exceeded": true },
-      { "value": 42, "exceeded": true },
-    ]},
-  {
     "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.AI.Adapters.MistralAdapter", "reportPath": "Foundz.Net.Core_MistralAdapter.html", "methodName": "ParseResponse(System.Object)", "methodShortName": "ParseResponse(...)", "fileIndex": 0, "line": 107,
     "metrics": [
       { "value": 1640, "exceeded": true },
@@ -443,25 +437,7 @@ var riskHotspots = [
       { "value": 40, "exceeded": true },
     ]},
   {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Git.GitBranchTool", "reportPath": "Foundz.Net.Tools_GitBranchTool.html", "methodName": "ExecuteAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ExecuteAsync(...)", "fileIndex": 0, "line": 46,
-    "metrics": [
-      { "value": 1332, "exceeded": true },
-      { "value": 36, "exceeded": true },
-    ]},
-  {
     "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.AI.Adapters.CohereCmdRAdapter", "reportPath": "Foundz.Net.Core_CohereCmdRAdapter.html", "methodName": "ParseResponse(System.Object)", "methodShortName": "ParseResponse(...)", "fileIndex": 0, "line": 81,
-    "metrics": [
-      { "value": 1190, "exceeded": true },
-      { "value": 34, "exceeded": true },
-    ]},
-  {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Git.GitStashTool", "reportPath": "Foundz.Net.Tools_GitStashTool.html", "methodName": "ExecuteAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ExecuteAsync(...)", "fileIndex": 0, "line": 57,
-    "metrics": [
-      { "value": 1190, "exceeded": true },
-      { "value": 34, "exceeded": true },
-    ]},
-  {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Git.GitStatusTool", "reportPath": "Foundz.Net.Tools_GitStatusTool.html", "methodName": "ExecuteAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ExecuteAsync(...)", "fileIndex": 0, "line": 37,
     "metrics": [
       { "value": 1190, "exceeded": true },
       { "value": 34, "exceeded": true },
@@ -491,19 +467,13 @@ var riskHotspots = [
       { "value": 28, "exceeded": true },
     ]},
   {
+    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Git.GitStashTool", "reportPath": "Foundz.Net.Tools_GitStashTool.html", "methodName": "ExecuteAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ExecuteAsync(...)", "fileIndex": 0, "line": 57,
+    "metrics": [
+      { "value": 737, "exceeded": true },
+      { "value": 34, "exceeded": true },
+    ]},
+  {
     "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.AI.ModelCapabilityDetector", "reportPath": "Foundz.Net.Core_ModelCapabilityDetector.html", "methodName": "SelectBestModel(System.Collections.Generic.IEnumerable`1<System.String>,Foundz.Net.Core.AI.ModelRequirements)", "methodShortName": "SelectBestModel(...)", "fileIndex": 0, "line": 263,
-    "metrics": [
-      { "value": 702, "exceeded": true },
-      { "value": 26, "exceeded": true },
-    ]},
-  {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Git.GitLogTool", "reportPath": "Foundz.Net.Tools_GitLogTool.html", "methodName": "ExecuteAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ExecuteAsync(...)", "fileIndex": 0, "line": 50,
-    "metrics": [
-      { "value": 702, "exceeded": true },
-      { "value": 26, "exceeded": true },
-    ]},
-  {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Git.GitPushTool", "reportPath": "Foundz.Net.Tools_GitPushTool.html", "methodName": "ExecuteAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ExecuteAsync(...)", "fileIndex": 0, "line": 55,
     "metrics": [
       { "value": 702, "exceeded": true },
       { "value": 26, "exceeded": true },
@@ -557,6 +527,12 @@ var riskHotspots = [
       { "value": 22, "exceeded": true },
     ]},
   {
+    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Git.GitBranchTool", "reportPath": "Foundz.Net.Tools_GitBranchTool.html", "methodName": "ExecuteAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ExecuteAsync(...)", "fileIndex": 0, "line": 46,
+    "metrics": [
+      { "value": 482, "exceeded": true },
+      { "value": 36, "exceeded": true },
+    ]},
+  {
     "assembly": "Foundz.Net.Cli", "class": "Foundz.Net.Cli.Commands.TaskCommand", "reportPath": "Foundz.Net.Cli_TaskCommand.html", "methodName": "DisplayToolResults(System.Collections.Generic.List`1<Foundz.Net.Shared.Models.ToolResult>)", "methodShortName": "DisplayToolResults(...)", "fileIndex": 0, "line": 230,
     "metrics": [
       { "value": 420, "exceeded": true },
@@ -587,10 +563,10 @@ var riskHotspots = [
       { "value": 20, "exceeded": true },
     ]},
   {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Shell.ExecuteCommandTool", "reportPath": "Foundz.Net.Tools_ExecuteCommandTool.html", "methodName": "ExecuteAsync()", "methodShortName": "ExecuteAsync()", "fileIndex": 0, "line": 64,
+    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Git.GitDiffTool", "reportPath": "Foundz.Net.Tools_GitDiffTool.html", "methodName": "ExecuteAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ExecuteAsync(...)", "fileIndex": 0, "line": 46,
     "metrics": [
-      { "value": 420, "exceeded": true },
-      { "value": 20, "exceeded": true },
+      { "value": 353, "exceeded": true },
+      { "value": 42, "exceeded": true },
     ]},
   {
     "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.AI.ModelCapabilityDetector", "reportPath": "Foundz.Net.Core_ModelCapabilityDetector.html", "methodName": "InferCapabilitiesFromName(System.String)", "methodShortName": "InferCapabilitiesFromName(...)", "fileIndex": 0, "line": 94,
@@ -629,42 +605,6 @@ var riskHotspots = [
       { "value": 18, "exceeded": true },
     ]},
   {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.File.ListDirectoryTool", "reportPath": "Foundz.Net.Tools_ListDirectoryTool.html", "methodName": "ExecuteAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ExecuteAsync(...)", "fileIndex": 0, "line": 40,
-    "metrics": [
-      { "value": 342, "exceeded": true },
-      { "value": 18, "exceeded": true },
-    ]},
-  {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.File.SearchFilesTool", "reportPath": "Foundz.Net.Tools_SearchFilesTool.html", "methodName": "ExecuteAsync()", "methodShortName": "ExecuteAsync()", "fileIndex": 0, "line": 51,
-    "metrics": [
-      { "value": 342, "exceeded": true },
-      { "value": 18, "exceeded": true },
-    ]},
-  {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Git.GitCommitTool", "reportPath": "Foundz.Net.Tools_GitCommitTool.html", "methodName": "ExecuteAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ExecuteAsync(...)", "fileIndex": 0, "line": 50,
-    "metrics": [
-      { "value": 342, "exceeded": true },
-      { "value": 18, "exceeded": true },
-    ]},
-  {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Refactoring.ExtractInterfaceTool", "reportPath": "Foundz.Net.Tools_ExtractInterfaceTool.html", "methodName": "ValidateArgsAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ValidateArgsAsync(...)", "fileIndex": 0, "line": 59,
-    "metrics": [
-      { "value": 342, "exceeded": true },
-      { "value": 18, "exceeded": true },
-    ]},
-  {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Refactoring.MoveClassTool", "reportPath": "Foundz.Net.Tools_MoveClassTool.html", "methodName": "ValidateArgsAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ValidateArgsAsync(...)", "fileIndex": 0, "line": 57,
-    "metrics": [
-      { "value": 342, "exceeded": true },
-      { "value": 18, "exceeded": true },
-    ]},
-  {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Refactoring.RenameSymbolTool", "reportPath": "Foundz.Net.Tools_RenameSymbolTool.html", "methodName": "ValidateArgsAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ValidateArgsAsync(...)", "fileIndex": 0, "line": 48,
-    "metrics": [
-      { "value": 342, "exceeded": true },
-      { "value": 18, "exceeded": true },
-    ]},
-  {
     "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Shell.BuildProjectTool", "reportPath": "Foundz.Net.Tools_BuildProjectTool.html", "methodName": "IsSuccessful(System.String,System.String)", "methodShortName": "IsSuccessful(...)", "fileIndex": 0, "line": 243,
     "metrics": [
       { "value": 342, "exceeded": true },
@@ -683,6 +623,12 @@ var riskHotspots = [
       { "value": 17, "exceeded": true },
     ]},
   {
+    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Git.GitPushTool", "reportPath": "Foundz.Net.Tools_GitPushTool.html", "methodName": "ExecuteAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ExecuteAsync(...)", "fileIndex": 0, "line": 55,
+    "metrics": [
+      { "value": 281, "exceeded": true },
+      { "value": 26, "exceeded": true },
+    ]},
+  {
     "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.AI.Adapters.CohereCmdRAdapter", "reportPath": "Foundz.Net.Core_CohereCmdRAdapter.html", "methodName": "FormatParameters(System.Collections.Generic.Dictionary`2<System.String,System.Object>)", "methodShortName": "FormatParameters(...)", "fileIndex": 0, "line": 265,
     "metrics": [
       { "value": 272, "exceeded": true },
@@ -695,25 +641,7 @@ var riskHotspots = [
       { "value": 16, "exceeded": true },
     ]},
   {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.File.CopyFileTool", "reportPath": "Foundz.Net.Tools_CopyFileTool.html", "methodName": "ExecuteAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ExecuteAsync(...)", "fileIndex": 0, "line": 56,
-    "metrics": [
-      { "value": 272, "exceeded": true },
-      { "value": 16, "exceeded": true },
-    ]},
-  {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.File.ReadFileTool", "reportPath": "Foundz.Net.Tools_ReadFileTool.html", "methodName": "ExecuteAsync()", "methodShortName": "ExecuteAsync()", "fileIndex": 0, "line": 50,
-    "metrics": [
-      { "value": 272, "exceeded": true },
-      { "value": 16, "exceeded": true },
-    ]},
-  {
     "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Refactoring.ExtractInterfaceTool", "reportPath": "Foundz.Net.Tools_ExtractInterfaceTool.html", "methodName": "ExecuteAsync()", "methodShortName": "ExecuteAsync()", "fileIndex": 0, "line": 73,
-    "metrics": [
-      { "value": 272, "exceeded": true },
-      { "value": 16, "exceeded": true },
-    ]},
-  {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Refactoring.ExtractMethodTool", "reportPath": "Foundz.Net.Tools_ExtractMethodTool.html", "methodName": "ValidateArgsAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ValidateArgsAsync(...)", "fileIndex": 0, "line": 43,
     "metrics": [
       { "value": 272, "exceeded": true },
       { "value": 16, "exceeded": true },
@@ -753,6 +681,12 @@ var riskHotspots = [
     "metrics": [
       { "value": 210, "exceeded": true },
       { "value": 14, "exceeded": false },
+    ]},
+  {
+    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Git.GitStatusTool", "reportPath": "Foundz.Net.Tools_GitStatusTool.html", "methodName": "ExecuteAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ExecuteAsync(...)", "fileIndex": 0, "line": 37,
+    "metrics": [
+      { "value": 179, "exceeded": true },
+      { "value": 34, "exceeded": true },
     ]},
   {
     "assembly": "Foundz.Net.Cli", "class": "Foundz.Net.Cli.Commands.ChatCommand", "reportPath": "Foundz.Net.Cli_ChatCommand.html", "methodName": "DisplayHistory(Foundz.Net.Shared.Models.Session)", "methodShortName": "DisplayHistory(...)", "fileIndex": 0, "line": 260,
@@ -809,18 +743,6 @@ var riskHotspots = [
       { "value": 12, "exceeded": false },
     ]},
   {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.CodeAnalysis.FindReferencesTool", "reportPath": "Foundz.Net.Tools_FindReferencesTool.html", "methodName": "ValidateArgsAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ValidateArgsAsync(...)", "fileIndex": 0, "line": 44,
-    "metrics": [
-      { "value": 156, "exceeded": true },
-      { "value": 12, "exceeded": false },
-    ]},
-  {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.CodeAnalysis.GetDefinitionTool", "reportPath": "Foundz.Net.Tools_GetDefinitionTool.html", "methodName": "ValidateArgsAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ValidateArgsAsync(...)", "fileIndex": 0, "line": 43,
-    "metrics": [
-      { "value": 156, "exceeded": true },
-      { "value": 12, "exceeded": false },
-    ]},
-  {
     "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Documentation.GenerateDocsTool", "reportPath": "Foundz.Net.Tools_GenerateDocsTool.html", "methodName": "GenerateMethodDoc(Microsoft.CodeAnalysis.CSharp.Syntax.MethodDeclarationSyntax,System.String)", "methodShortName": "GenerateMethodDoc(...)", "fileIndex": 0, "line": 181,
     "metrics": [
       { "value": 156, "exceeded": true },
@@ -839,30 +761,6 @@ var riskHotspots = [
       { "value": 12, "exceeded": false },
     ]},
   {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.File.RenameFileTool", "reportPath": "Foundz.Net.Tools_RenameFileTool.html", "methodName": "ExecuteAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ExecuteAsync(...)", "fileIndex": 0, "line": 46,
-    "metrics": [
-      { "value": 156, "exceeded": true },
-      { "value": 12, "exceeded": false },
-    ]},
-  {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.File.WriteFileTool", "reportPath": "Foundz.Net.Tools_WriteFileTool.html", "methodName": "ExecuteAsync()", "methodShortName": "ExecuteAsync()", "fileIndex": 0, "line": 50,
-    "metrics": [
-      { "value": 156, "exceeded": true },
-      { "value": 12, "exceeded": false },
-    ]},
-  {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Git.GitCheckoutTool", "reportPath": "Foundz.Net.Tools_GitCheckoutTool.html", "methodName": "ExecuteAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ExecuteAsync(...)", "fileIndex": 0, "line": 53,
-    "metrics": [
-      { "value": 156, "exceeded": true },
-      { "value": 12, "exceeded": false },
-    ]},
-  {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Refactoring.InlineVariableTool", "reportPath": "Foundz.Net.Tools_InlineVariableTool.html", "methodName": "ValidateArgsAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ValidateArgsAsync(...)", "fileIndex": 0, "line": 49,
-    "metrics": [
-      { "value": 156, "exceeded": true },
-      { "value": 12, "exceeded": false },
-    ]},
-  {
     "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Search.SearchDependenciesTool", "reportPath": "Foundz.Net.Tools_SearchDependenciesTool.html", "methodName": "ParsePackageJsonDependencies()", "methodShortName": "ParsePackageJsonDependencies()", "fileIndex": 0, "line": 217,
     "metrics": [
       { "value": 156, "exceeded": true },
@@ -875,10 +773,10 @@ var riskHotspots = [
       { "value": 12, "exceeded": false },
     ]},
   {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Testing.GenerateTestTool", "reportPath": "Foundz.Net.Tools_GenerateTestTool.html", "methodName": "ValidateArgsAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ValidateArgsAsync(...)", "fileIndex": 0, "line": 49,
+    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Git.GitCommitTool", "reportPath": "Foundz.Net.Tools_GitCommitTool.html", "methodName": "ExecuteAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ExecuteAsync(...)", "fileIndex": 0, "line": 50,
     "metrics": [
-      { "value": 156, "exceeded": true },
-      { "value": 12, "exceeded": false },
+      { "value": 114, "exceeded": true },
+      { "value": 18, "exceeded": true },
     ]},
   {
     "assembly": "Foundz.Net.Cli", "class": "Foundz.Net.Cli.Commands.CostsCommand", "reportPath": "Foundz.Net.Cli_CostsCommand.html", "methodName": "ExecuteForSession(System.String)", "methodShortName": "ExecuteForSession(...)", "fileIndex": 0, "line": 90,
@@ -971,24 +869,6 @@ var riskHotspots = [
       { "value": 10, "exceeded": false },
     ]},
   {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.File.CreateDirectoryTool", "reportPath": "Foundz.Net.Tools_CreateDirectoryTool.html", "methodName": "ExecuteAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ExecuteAsync(...)", "fileIndex": 0, "line": 41,
-    "metrics": [
-      { "value": 110, "exceeded": true },
-      { "value": 10, "exceeded": false },
-    ]},
-  {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Git.GitAddTool", "reportPath": "Foundz.Net.Tools_GitAddTool.html", "methodName": "ExecuteAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ExecuteAsync(...)", "fileIndex": 0, "line": 43,
-    "metrics": [
-      { "value": 110, "exceeded": true },
-      { "value": 10, "exceeded": false },
-    ]},
-  {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Git.GitPullTool", "reportPath": "Foundz.Net.Tools_GitPullTool.html", "methodName": "ExecuteAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ExecuteAsync(...)", "fileIndex": 0, "line": 47,
-    "metrics": [
-      { "value": 110, "exceeded": true },
-      { "value": 10, "exceeded": false },
-    ]},
-  {
     "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Refactoring.ExtractMethodTool", "reportPath": "Foundz.Net.Tools_ExtractMethodTool.html", "methodName": "ExecuteAsync()", "methodShortName": "ExecuteAsync()", "fileIndex": 0, "line": 57,
     "metrics": [
       { "value": 110, "exceeded": true },
@@ -1011,6 +891,18 @@ var riskHotspots = [
     "metrics": [
       { "value": 90, "exceeded": true },
       { "value": 9, "exceeded": false },
+    ]},
+  {
+    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Git.GitCheckoutTool", "reportPath": "Foundz.Net.Tools_GitCheckoutTool.html", "methodName": "ExecuteAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ExecuteAsync(...)", "fileIndex": 0, "line": 53,
+    "metrics": [
+      { "value": 84, "exceeded": true },
+      { "value": 12, "exceeded": false },
+    ]},
+  {
+    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Git.GitLogTool", "reportPath": "Foundz.Net.Tools_GitLogTool.html", "methodName": "ExecuteAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ExecuteAsync(...)", "fileIndex": 0, "line": 50,
+    "metrics": [
+      { "value": 78, "exceeded": true },
+      { "value": 26, "exceeded": true },
     ]},
   {
     "assembly": "Foundz.Net.Cli", "class": "Foundz.Net.Cli.Commands.ChatCommand", "reportPath": "Foundz.Net.Cli_ChatCommand.html", "methodName": "<ProcessUserMessageAsync()", "methodShortName": "<ProcessUserMessageAsync()", "fileIndex": 0, "line": 105,
@@ -1133,24 +1025,6 @@ var riskHotspots = [
       { "value": 8, "exceeded": false },
     ]},
   {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.File.DeleteFileTool", "reportPath": "Foundz.Net.Tools_DeleteFileTool.html", "methodName": "ExecuteAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ExecuteAsync(...)", "fileIndex": 0, "line": 41,
-    "metrics": [
-      { "value": 72, "exceeded": true },
-      { "value": 8, "exceeded": false },
-    ]},
-  {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.File.EditFileTool", "reportPath": "Foundz.Net.Tools_EditFileTool.html", "methodName": "ExecuteAsync()", "methodShortName": "ExecuteAsync()", "fileIndex": 0, "line": 54,
-    "metrics": [
-      { "value": 72, "exceeded": true },
-      { "value": 8, "exceeded": false },
-    ]},
-  {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.File.WriteFileTool", "reportPath": "Foundz.Net.Tools_WriteFileTool.html", "methodName": "ValidateArgsAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ValidateArgsAsync(...)", "fileIndex": 0, "line": 35,
-    "metrics": [
-      { "value": 72, "exceeded": true },
-      { "value": 8, "exceeded": false },
-    ]},
-  {
     "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Git.GitStatusTool", "reportPath": "Foundz.Net.Tools_GitStatusTool.html", "methodName": "GetStatusChar(LibGit2Sharp.FileStatus)", "methodShortName": "GetStatusChar(...)", "fileIndex": 0, "line": 176,
     "metrics": [
       { "value": 72, "exceeded": true },
@@ -1167,6 +1041,18 @@ var riskHotspots = [
     "metrics": [
       { "value": 72, "exceeded": true },
       { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.File.SearchFilesTool", "reportPath": "Foundz.Net.Tools_SearchFilesTool.html", "methodName": "ExecuteAsync()", "methodShortName": "ExecuteAsync()", "fileIndex": 0, "line": 51,
+    "metrics": [
+      { "value": 60, "exceeded": true },
+      { "value": 18, "exceeded": true },
+    ]},
+  {
+    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Shell.ExecuteCommandTool", "reportPath": "Foundz.Net.Tools_ExecuteCommandTool.html", "methodName": "ExecuteAsync()", "methodShortName": "ExecuteAsync()", "fileIndex": 0, "line": 64,
+    "metrics": [
+      { "value": 55, "exceeded": true },
+      { "value": 20, "exceeded": true },
     ]},
   {
     "assembly": "Foundz.Net.Cli", "class": "Foundz.Net.Cli.Commands.ChatCommand", "reportPath": "Foundz.Net.Cli_ChatCommand.html", "methodName": "LoadOrCreateSession(System.String)", "methodShortName": "LoadOrCreateSession(...)", "fileIndex": 0, "line": 210,
@@ -1319,43 +1205,7 @@ var riskHotspots = [
       { "value": 6, "exceeded": false },
     ]},
   {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.CodeAnalysis.DetectDuplicationTool", "reportPath": "Foundz.Net.Tools_DetectDuplicationTool.html", "methodName": "ValidateArgsAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ValidateArgsAsync(...)", "fileIndex": 0, "line": 47,
-    "metrics": [
-      { "value": 42, "exceeded": true },
-      { "value": 6, "exceeded": false },
-    ]},
-  {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.CodeAnalysis.LintCodeTool", "reportPath": "Foundz.Net.Tools_LintCodeTool.html", "methodName": "ValidateArgsAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ValidateArgsAsync(...)", "fileIndex": 0, "line": 45,
-    "metrics": [
-      { "value": 42, "exceeded": true },
-      { "value": 6, "exceeded": false },
-    ]},
-  {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Documentation.ExplainCodeTool", "reportPath": "Foundz.Net.Tools_ExplainCodeTool.html", "methodName": "ValidateArgsAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ValidateArgsAsync(...)", "fileIndex": 0, "line": 48,
-    "metrics": [
-      { "value": 42, "exceeded": true },
-      { "value": 6, "exceeded": false },
-    ]},
-  {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Documentation.GenerateDocsTool", "reportPath": "Foundz.Net.Tools_GenerateDocsTool.html", "methodName": "ValidateArgsAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ValidateArgsAsync(...)", "fileIndex": 0, "line": 45,
-    "metrics": [
-      { "value": 42, "exceeded": true },
-      { "value": 6, "exceeded": false },
-    ]},
-  {
     "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.File.GetFileInfoTool", "reportPath": "Foundz.Net.Tools_GetFileInfoTool.html", "methodName": "ValidateArgsAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ValidateArgsAsync(...)", "fileIndex": 0, "line": 32,
-    "metrics": [
-      { "value": 42, "exceeded": true },
-      { "value": 6, "exceeded": false },
-    ]},
-  {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.File.GetFileInfoTool", "reportPath": "Foundz.Net.Tools_GetFileInfoTool.html", "methodName": "ExecuteAsync()", "methodShortName": "ExecuteAsync()", "fileIndex": 0, "line": 40,
-    "metrics": [
-      { "value": 42, "exceeded": true },
-      { "value": 6, "exceeded": false },
-    ]},
-  {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.File.ReadFileTool", "reportPath": "Foundz.Net.Tools_ReadFileTool.html", "methodName": "ValidateArgsAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ValidateArgsAsync(...)", "fileIndex": 0, "line": 40,
     "metrics": [
       { "value": 42, "exceeded": true },
       { "value": 6, "exceeded": false },
@@ -1367,28 +1217,70 @@ var riskHotspots = [
       { "value": 6, "exceeded": false },
     ]},
   {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Search.SearchCodebaseTool", "reportPath": "Foundz.Net.Tools_SearchCodebaseTool.html", "methodName": "ValidateArgsAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ValidateArgsAsync(...)", "fileIndex": 0, "line": 62,
+    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.File.CopyFileTool", "reportPath": "Foundz.Net.Tools_CopyFileTool.html", "methodName": "ExecuteAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ExecuteAsync(...)", "fileIndex": 0, "line": 56,
     "metrics": [
-      { "value": 42, "exceeded": true },
-      { "value": 6, "exceeded": false },
+      { "value": 40, "exceeded": true },
+      { "value": 16, "exceeded": true },
     ]},
   {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Search.SearchDocumentationTool", "reportPath": "Foundz.Net.Tools_SearchDocumentationTool.html", "methodName": "ValidateArgsAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ValidateArgsAsync(...)", "fileIndex": 0, "line": 41,
+    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Git.GitPullTool", "reportPath": "Foundz.Net.Tools_GitPullTool.html", "methodName": "ExecuteAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ExecuteAsync(...)", "fileIndex": 0, "line": 47,
     "metrics": [
-      { "value": 42, "exceeded": true },
-      { "value": 6, "exceeded": false },
+      { "value": 39, "exceeded": true },
+      { "value": 10, "exceeded": false },
     ]},
   {
-    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Testing.AnalyzeCoverageTool", "reportPath": "Foundz.Net.Tools_AnalyzeCoverageTool.html", "methodName": "ValidateArgsAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ValidateArgsAsync(...)", "fileIndex": 0, "line": 43,
+    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.File.ListDirectoryTool", "reportPath": "Foundz.Net.Tools_ListDirectoryTool.html", "methodName": "ExecuteAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ExecuteAsync(...)", "fileIndex": 0, "line": 40,
     "metrics": [
-      { "value": 42, "exceeded": true },
-      { "value": 6, "exceeded": false },
+      { "value": 36, "exceeded": true },
+      { "value": 18, "exceeded": true },
+    ]},
+  {
+    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.File.CreateDirectoryTool", "reportPath": "Foundz.Net.Tools_CreateDirectoryTool.html", "methodName": "ExecuteAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ExecuteAsync(...)", "fileIndex": 0, "line": 41,
+    "metrics": [
+      { "value": 35, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.File.RenameFileTool", "reportPath": "Foundz.Net.Tools_RenameFileTool.html", "methodName": "ExecuteAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ExecuteAsync(...)", "fileIndex": 0, "line": 46,
+    "metrics": [
+      { "value": 34, "exceeded": true },
+      { "value": 12, "exceeded": false },
     ]},
   {
     "assembly": "Foundz.Net.Core", "class": "Foundz.Net.Core.ToolRegistry.ToolExecutor", "reportPath": "Foundz.Net.Core_ToolExecutor.html", "methodName": "CanExecuteInParallel(System.Collections.Generic.List`1<Foundz.Net.Shared.Models.ToolCall>)", "methodShortName": "CanExecuteInParallel(...)", "fileIndex": 0, "line": 180,
     "metrics": [
       { "value": 23, "exceeded": false },
       { "value": 20, "exceeded": true },
+    ]},
+  {
+    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Refactoring.ExtractInterfaceTool", "reportPath": "Foundz.Net.Tools_ExtractInterfaceTool.html", "methodName": "ValidateArgsAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ValidateArgsAsync(...)", "fileIndex": 0, "line": 59,
+    "metrics": [
+      { "value": 22, "exceeded": false },
+      { "value": 18, "exceeded": true },
+    ]},
+  {
+    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Refactoring.MoveClassTool", "reportPath": "Foundz.Net.Tools_MoveClassTool.html", "methodName": "ValidateArgsAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ValidateArgsAsync(...)", "fileIndex": 0, "line": 57,
+    "metrics": [
+      { "value": 22, "exceeded": false },
+      { "value": 18, "exceeded": true },
+    ]},
+  {
+    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Refactoring.RenameSymbolTool", "reportPath": "Foundz.Net.Tools_RenameSymbolTool.html", "methodName": "ValidateArgsAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ValidateArgsAsync(...)", "fileIndex": 0, "line": 48,
+    "metrics": [
+      { "value": 22, "exceeded": false },
+      { "value": 18, "exceeded": true },
+    ]},
+  {
+    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.File.ReadFileTool", "reportPath": "Foundz.Net.Tools_ReadFileTool.html", "methodName": "ExecuteAsync()", "methodShortName": "ExecuteAsync()", "fileIndex": 0, "line": 50,
+    "metrics": [
+      { "value": 22, "exceeded": false },
+      { "value": 16, "exceeded": true },
+    ]},
+  {
+    "assembly": "Foundz.Net.Tools", "class": "Foundz.Net.Tools.Refactoring.ExtractMethodTool", "reportPath": "Foundz.Net.Tools_ExtractMethodTool.html", "methodName": "ValidateArgsAsync(System.Collections.Generic.Dictionary`2<System.String,System.Object>,System.Threading.CancellationToken)", "methodShortName": "ValidateArgsAsync(...)", "fileIndex": 0, "line": 43,
+    "metrics": [
+      { "value": 19, "exceeded": false },
+      { "value": 16, "exceeded": true },
     ]},
 ];
 
